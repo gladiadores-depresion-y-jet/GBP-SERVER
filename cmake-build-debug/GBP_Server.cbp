@@ -84,13 +84,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.h">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.h">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Main/main.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Server/Server.cpp">
 			<Option target="GBP_Server"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Server/Server.h">
 			<Option target="GBP_Server"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/main.cpp">
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Structures/List.h">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Structures/Node.h">
 			<Option target="GBP_Server"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/CMakeLists.txt">

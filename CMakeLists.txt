@@ -3,4 +3,4 @@ project(GBP_Server)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GBP_Server main.cpp Server/Server.cpp)
+add_executable(GBP_Server Main/main.cpp Server/Server.cpp Logic/Cell.cpp Logic/Cell.h Logic/Matrix.cpp Logic/Matrix.h Structures/List.h Structures/Node.h)

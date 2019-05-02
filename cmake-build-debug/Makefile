@@ -123,6 +123,87 @@ GBP_Server/fast:
 	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/build
 .PHONY : GBP_Server/fast
 
+Logic/Cell.o: Logic/Cell.cpp.o
+
+.PHONY : Logic/Cell.o
+
+# target to build an object file
+Logic/Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o
+.PHONY : Logic/Cell.cpp.o
+
+Logic/Cell.i: Logic/Cell.cpp.i
+
+.PHONY : Logic/Cell.i
+
+# target to preprocess a source file
+Logic/Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.i
+.PHONY : Logic/Cell.cpp.i
+
+Logic/Cell.s: Logic/Cell.cpp.s
+
+.PHONY : Logic/Cell.s
+
+# target to generate assembly for a file
+Logic/Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.s
+.PHONY : Logic/Cell.cpp.s
+
+Logic/Matrix.o: Logic/Matrix.cpp.o
+
+.PHONY : Logic/Matrix.o
+
+# target to build an object file
+Logic/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o
+.PHONY : Logic/Matrix.cpp.o
+
+Logic/Matrix.i: Logic/Matrix.cpp.i
+
+.PHONY : Logic/Matrix.i
+
+# target to preprocess a source file
+Logic/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.i
+.PHONY : Logic/Matrix.cpp.i
+
+Logic/Matrix.s: Logic/Matrix.cpp.s
+
+.PHONY : Logic/Matrix.s
+
+# target to generate assembly for a file
+Logic/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.s
+.PHONY : Logic/Matrix.cpp.s
+
+Main/main.o: Main/main.cpp.o
+
+.PHONY : Main/main.o
+
+# target to build an object file
+Main/main.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Main/main.cpp.o
+.PHONY : Main/main.cpp.o
+
+Main/main.i: Main/main.cpp.i
+
+.PHONY : Main/main.i
+
+# target to preprocess a source file
+Main/main.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Main/main.cpp.i
+.PHONY : Main/main.cpp.i
+
+Main/main.s: Main/main.cpp.s
+
+.PHONY : Main/main.s
+
+# target to generate assembly for a file
+Main/main.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Main/main.cpp.s
+.PHONY : Main/main.cpp.s
+
 Server/Server.o: Server/Server.cpp.o
 
 .PHONY : Server/Server.o
@@ -150,33 +231,6 @@ Server/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Server/Server.cpp.s
 .PHONY : Server/Server.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... GBP_Server"
 	@echo "... edit_cache"
+	@echo "... Logic/Cell.o"
+	@echo "... Logic/Cell.i"
+	@echo "... Logic/Cell.s"
+	@echo "... Logic/Matrix.o"
+	@echo "... Logic/Matrix.i"
+	@echo "... Logic/Matrix.s"
+	@echo "... Main/main.o"
+	@echo "... Main/main.i"
+	@echo "... Main/main.s"
 	@echo "... Server/Server.o"
 	@echo "... Server/Server.i"
 	@echo "... Server/Server.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 
