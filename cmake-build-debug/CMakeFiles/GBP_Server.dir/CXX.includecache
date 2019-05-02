@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.cpp
-Cell.h
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.h
-
 /home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.h
 vector
 -
@@ -33,12 +29,6 @@ Cell.h
 /home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.h
 ../Structures/List.h
 /home/dcamachog1501/Desktop/GBP_Server/Structures/List.h
-
-/home/dcamachog1501/Desktop/GBP_Server/Main/main.cpp
-iostream
--
-../Logic/Matrix.h
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.h
 
 /home/dcamachog1501/Desktop/GBP_Server/Structures/List.h
 Node.h

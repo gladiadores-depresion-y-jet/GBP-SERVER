@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GBP_Server.dir/Server/Server.cpp.o"
   "CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o"
   "CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o"
+  "CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o"
   "GBP_Server.pdb"
   "GBP_Server"
 )

@@ -40,19 +40,30 @@ using namespace std;
 Server::Server()
 
 {
+
     init();
 }
 
-void Server::init() {
+void Server::init()
+{
+    this->Jmanager= new JSONManager();
+    this->matriz= new Matrix();
+    this->matriz->fill(10);
+    Cell* beg=this->matriz->get(0,0);
+    Cell* end=this->matriz->get(9,9);
+    for(int i=0;i<10;i++)
+    {
+        matriz->randomObstacleSetter(beg,end);
+    }
+    this->matriz->AstarFindPath(0,0,9,9);
+    this->matriz->print();
 
     int opt = TRUE;
     int master_socket , addrlen , new_socket ,activity, message , sd;
     int max_sd;
-    int socketC=0;
+    this->socketC=0;
     bool running=true;
     struct sockaddr_in address;
-
-    char buffer[1025];
 
     fd_set readfds;
 
@@ -125,11 +136,11 @@ void Server::init() {
             if(socketC==0){
 
                 socketC=new_socket;
-                sennd(socketC,"acepted");
+                sendMessage("acepted");
             }
             else
             {
-                sennd(new_socket,"denied");
+                sendMessage("denied");
             }
 
         }
@@ -152,7 +163,19 @@ void Server::init() {
             else
 
             {
-                //Aqui se ponen los casos de entrada.
+                string message=buffer;
+                if(message=="position")
+                {
+                    sendMessage("send");
+                    string s= receiveMessage();
+                    vector<string> input;
+                    boost::split(input,s, boost::is_any_of("$"));
+                    int pos=stoi(input.at(1));
+                    Cell* c=this->matriz->getStep(pos,input.at(0));
+                    string out=Jmanager->toJSON("line@"+to_string(c->getLine())+"$column@"+to_string(c->getColumn()));
+                    sendMessage(out);
+
+                }
             }
         }
     }
@@ -160,7 +183,14 @@ void Server::init() {
 
 
 
-void Server::sennd(int socketclient, string s) {
+void Server::sendMessage(string s) {
 
-    send(socketclient, s.c_str(), s.size() + 1, 0);
+    send(this->socketC, s.c_str(), s.size() + 1, 0);
+}
+string Server::receiveMessage()
+{
+    int r = read(this->socketC, buffer, 1024);
+    string g = string(buffer, 0, r);
+    memset(buffer, 0, 1024); //clean the buffer
+    return g;
 }

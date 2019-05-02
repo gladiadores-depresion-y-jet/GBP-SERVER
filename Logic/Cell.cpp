@@ -86,17 +86,6 @@ bool Cell::isObstacle()
 int Cell::getG() {
     return this->G;
 }
-
-void Cell::markNeighbours()
-{
-    Node<Cell*>* temp=neighbours->getHead();
-    while(temp!= nullptr)
-    {
-        temp->getValue()->setG(-1);
-        temp=temp->getNext();
-    }
-}
-
 bool Cell::isPath()
 {
     return path;

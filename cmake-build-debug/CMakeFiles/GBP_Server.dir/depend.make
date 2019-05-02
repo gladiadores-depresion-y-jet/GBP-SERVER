@@ -6,6 +6,13 @@ CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o: ../Logic/Cell.h
 CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o: ../Structures/List.h
 CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o: ../Structures/Node.h
 
+CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: ../Logic/Cell.h
+CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: ../Logic/JSONManager.cpp
+CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: ../Logic/JSONManager.h
+CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: ../Logic/Matrix.h
+CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: ../Structures/List.h
+CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: ../Structures/Node.h
+
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o: ../Logic/Cell.h
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o: ../Logic/Matrix.cpp
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o: ../Logic/Matrix.h
@@ -13,11 +20,18 @@ CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o: ../Structures/List.h
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o: ../Structures/Node.h
 
 CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Logic/Cell.h
+CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Logic/JSONManager.h
 CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Logic/Matrix.h
 CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Main/main.cpp
+CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Server/Server.h
 CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Structures/List.h
 CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Structures/Node.h
 
+CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Logic/Cell.h
+CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Logic/JSONManager.h
+CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Logic/Matrix.h
 CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Server/Server.cpp
 CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Server/Server.h
+CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Structures/List.h
+CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Structures/Node.h
 

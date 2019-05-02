@@ -150,6 +150,33 @@ Logic/Cell.cpp.s:
 	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.s
 .PHONY : Logic/Cell.cpp.s
 
+Logic/JSONManager.o: Logic/JSONManager.cpp.o
+
+.PHONY : Logic/JSONManager.o
+
+# target to build an object file
+Logic/JSONManager.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o
+.PHONY : Logic/JSONManager.cpp.o
+
+Logic/JSONManager.i: Logic/JSONManager.cpp.i
+
+.PHONY : Logic/JSONManager.i
+
+# target to preprocess a source file
+Logic/JSONManager.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.i
+.PHONY : Logic/JSONManager.cpp.i
+
+Logic/JSONManager.s: Logic/JSONManager.cpp.s
+
+.PHONY : Logic/JSONManager.s
+
+# target to generate assembly for a file
+Logic/JSONManager.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s
+.PHONY : Logic/JSONManager.cpp.s
+
 Logic/Matrix.o: Logic/Matrix.cpp.o
 
 .PHONY : Logic/Matrix.o
@@ -243,6 +270,9 @@ help:
 	@echo "... Logic/Cell.o"
 	@echo "... Logic/Cell.i"
 	@echo "... Logic/Cell.s"
+	@echo "... Logic/JSONManager.o"
+	@echo "... Logic/JSONManager.i"
+	@echo "... Logic/JSONManager.s"
 	@echo "... Logic/Matrix.o"
 	@echo "... Logic/Matrix.i"
 	@echo "... Logic/Matrix.s"

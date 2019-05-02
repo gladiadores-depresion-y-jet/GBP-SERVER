@@ -10,6 +10,10 @@ Matrix::Matrix()
 {
     this->head= nullptr;
     this->towers=new List<Cell*>;
+    this->AstarHead= nullptr;
+    this->AstarSteps=0;
+    this->BacktrackingHead= nullptr;
+    this->BacktrackSteps=0;
 }
 
 void Matrix::fill(int limit)
@@ -288,7 +292,7 @@ void Matrix::setAsObstacle(int l,int c)
 
 }
 
-void Matrix::AstarFindPath(int lstart, int cstart, int lfinish, int cfinish)
+Cell* Matrix::AstarFindPath(int lstart, int cstart, int lfinish, int cfinish)
 {
     Cell* start=get(lstart,cstart);
     Cell* finish= get(lfinish,cfinish);
@@ -339,10 +343,12 @@ void Matrix::AstarFindPath(int lstart, int cstart, int lfinish, int cfinish)
     while(temp!= nullptr)
     {
         temp->setAsPath();
+        this->AstarSteps++;
         temp=temp->getParent();
     }
-
     delete(temp);
+    this->AstarHead=finish;
+    return finish;
 }
 void Matrix::BacktrackingFindPath(int lstart, int cstart, int lfinish, int cfinish)
 {
@@ -351,10 +357,12 @@ void Matrix::BacktrackingFindPath(int lstart, int cstart, int lfinish, int cfini
 
     if(BacktrackingSolver(begining,end))
     {
+        this->BacktrackingHead=end;
         Cell* temp=end;
         while(temp!= nullptr)
         {
             temp->setAsPath();
+            this->BacktrackSteps++;
             temp=temp->getParent();
         }
     }
@@ -492,6 +500,8 @@ int Matrix::movementCost(Cell *begining, Cell *end)
 
 void Matrix::resetPath()
 {
+    this->AstarHead= nullptr;
+    this->BacktrackingHead= nullptr;
     for(int i=0;i<lines;i++)
     {
         for(int t=0;t<columns;t++)
@@ -710,4 +720,45 @@ int Matrix::getDamage(Cell *c)
         temp=temp->getNext();
     }
     return damage;
+}
+
+Cell *Matrix::getStep(int i,string type)
+{
+    if(type=="Astar")
+    {
+        int cont=AstarSteps-i;
+        Cell* temp=AstarHead;
+        for(int i=0;i<(cont-1);i++)
+        {
+            if(temp->getParent()==nullptr)
+            {
+                return temp;
+            }
+            temp=temp->getParent();
+        }
+        return temp;
+
+    }
+    else if(type=="Back")
+    {
+        if(i>=BacktrackSteps)
+        {
+            return BacktrackingHead;
+        }
+        else
+        {
+            int cont=BacktrackSteps-i;
+            Cell* temp=BacktrackingHead;
+            for(int i=0;i<cont;i++)
+            {
+                if(temp->getParent()==nullptr)
+                {
+                    return temp;
+                }
+                temp=temp->getParent();
+            }
+            return temp;
+        }
+    }
+    return nullptr;
 }

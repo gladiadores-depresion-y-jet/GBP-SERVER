@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../Logic/Matrix.h"
+#include "../Server/Server.h"
 
 using namespace std;
 
@@ -11,7 +12,7 @@ int main()
     cout<<"|  60  |"<<endl;
     cout<<"|______|"<<endl;*/
 
-    Matrix* m= new Matrix();
+    /*Matrix* m= new Matrix();
     m->fill(10);
     Cell* obs1=m->get(2,4);
     obs1->setObstascleType("simple");
@@ -41,7 +42,8 @@ int main()
     Cell* cell=m->get(3,4);
     m->print();
 
-    cout<<"Dano total: "+to_string(m->getDamage(cell))<<endl;
+    cout<<"Dano total: "+to_string(m->getDamage(cell))<<endl;*/
 
+    Server* s= new Server();
     return 0;
 }

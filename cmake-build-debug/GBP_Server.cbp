@@ -90,6 +90,12 @@
 		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.h">
 			<Option target="GBP_Server"/>
 		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.h">
+			<Option target="GBP_Server"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.cpp">
 			<Option target="GBP_Server"/>
 		</Unit>

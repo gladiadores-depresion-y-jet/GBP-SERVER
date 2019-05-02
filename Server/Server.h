@@ -10,22 +10,26 @@
 #include <string.h>
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/json_parser.hpp>
+#include "../Logic/Matrix.h"
+#include "../Logic/JSONManager.h"
 /**
  * @version 1.0
  * @file Server.h
  * @
  *
- * author Daniel García Fallas
+ * author Daniel Camacho Gonzalez
  *
  */
 using namespace std;
 
 class Server {
 
-
+private:
+    Matrix* matriz;
+    char buffer[1025];
+    int socketC;
+    JSONManager* Jmanager;
 public:
-
-
     Server();
     /**
      * Metodo para inicializar el server
@@ -36,7 +40,9 @@ public:
      * @param socketclient socket por el cual se envia el mensaje
      * @param s mensaje a enviar
      */
-    void sennd(int socketclient , string s);
+    void sendMessage(string s);
+
+    string receiveMessage();
 };
 
 
