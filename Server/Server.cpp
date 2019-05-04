@@ -164,9 +164,11 @@ void Server::init()
 
             {
                 string message=buffer;
-                if(message=="position")
+                cout<<"Comando recibido: "+message<<endl;
+                if(message=="position%")
                 {
                     sendMessage("send");
+                    memset(this->buffer, 0, 1024);
                     string s= receiveMessage();
                     vector<string> input;
                     boost::split(input,s, boost::is_any_of("$"));
@@ -175,6 +177,28 @@ void Server::init()
                     string out=Jmanager->toJSON("line@"+to_string(c->getLine())+"$column@"+to_string(c->getColumn()));
                     sendMessage(out);
 
+                }
+                else if(message=="towers")
+                {
+                    Node<Cell*>* temp=matriz->getTowers()->getHead();
+                    string output="";
+                    string suboutput="";
+                    int cont=1;
+                    while(temp!= nullptr)
+                    {
+                        suboutput=Jmanager->toJSON("type@"+temp->getValue()->getObstacleType()+"$line@"+to_string(temp->getValue()->getLine())+"$column@"+to_string(temp->getValue()->getColumn()));
+                        suboutput="tower"+to_string(cont)+"@"+suboutput;
+                        cout<<suboutput<<endl;
+                        if(temp->getNext()!= nullptr)
+                            output+=suboutput+"$";
+                        else
+                            output+=suboutput;
+                        cout<<output<<endl;
+                        cont++;
+                        temp=temp->getNext();
+                    }
+                    output=Jmanager->toJSON(output+"$size@"+to_string(matriz->getTowers()->getLength()));
+                    this->sendMessage(output);
                 }
             }
         }
@@ -186,11 +210,13 @@ void Server::init()
 void Server::sendMessage(string s) {
 
     send(this->socketC, s.c_str(), s.size() + 1, 0);
+    cout<<"Mensaje Enviado: "<<s<<endl;
 }
 string Server::receiveMessage()
 {
+    memset(this->buffer, 0, 1024);
     int r = read(this->socketC, buffer, 1024);
     string g = string(buffer, 0, r);
-    memset(buffer, 0, 1024); //clean the buffer
     return g;
 }
+

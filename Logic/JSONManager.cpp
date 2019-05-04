@@ -36,7 +36,6 @@ string JSONManager::toJSON(string entrada)
     std::ostringstream buf;
     write_json (buf, output, false);
     std::string json = buf.str();
-    cout<<json<<endl;
     return json;
 }
 ptree JSONManager::toPtree(string s) {
