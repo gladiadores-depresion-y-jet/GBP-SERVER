@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.cpp" "/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o"
-  "/home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.cpp" "/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o"
-  "/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.cpp" "/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o"
-  "/home/dcamachog1501/Desktop/GBP_Server/Main/main.cpp" "/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.o"
-  "/home/dcamachog1501/Desktop/GBP_Server/Server/Server.cpp" "/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.o"
+  "C:/Users/Toshiba/Desktop/Server/Logic/Cell.cpp" "C:/Users/Toshiba/Desktop/Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.obj"
+  "C:/Users/Toshiba/Desktop/Server/Logic/JSONManager.cpp" "C:/Users/Toshiba/Desktop/Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.obj"
+  "C:/Users/Toshiba/Desktop/Server/Logic/Matrix.cpp" "C:/Users/Toshiba/Desktop/Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.obj"
+  "C:/Users/Toshiba/Desktop/Server/Main/main.cpp" "C:/Users/Toshiba/Desktop/Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.obj"
+  "C:/Users/Toshiba/Desktop/Server/Server/Server.cpp" "C:/Users/Toshiba/Desktop/Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
