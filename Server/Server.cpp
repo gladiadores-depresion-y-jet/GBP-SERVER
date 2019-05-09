@@ -51,7 +51,7 @@ void Server::init()
     this->matriz->fill(10);
     Cell* beg=this->matriz->get(0,0);
     Cell* end=this->matriz->get(9,9);
-    for(int i=0;i<10;i++)
+    for(int i=0;i<4;i++)
     {
         matriz->randomObstacleSetter(beg,end);
     }
@@ -178,27 +178,34 @@ void Server::init()
                     sendMessage(out);
 
                 }
-                else if(message=="towers")
+                else if(message=="NTowers")
                 {
-                    Node<Cell*>* temp=matriz->getTowers()->getHead();
-                    string output="";
-                    string suboutput="";
-                    int cont=1;
-                    while(temp!= nullptr)
+                    sendMessage("send");
+                    int index=stoi(receiveMessage());
+                    if(index<matriz->getTowers()->getLength())
                     {
-                        suboutput=Jmanager->toJSON("type@"+temp->getValue()->getObstacleType()+"$line@"+to_string(temp->getValue()->getLine())+"$column@"+to_string(temp->getValue()->getColumn()));
-                        suboutput="tower"+to_string(cont)+"@"+suboutput;
-                        cout<<suboutput<<endl;
-                        if(temp->getNext()!= nullptr)
-                            output+=suboutput+"$";
-                        else
-                            output+=suboutput;
-                        cout<<output<<endl;
-                        cont++;
-                        temp=temp->getNext();
+                        Node<Cell*>* temp=matriz->getTowers()->getHead();
+                        string output="";
+                        int cont=0;
+                        while(temp!= nullptr)
+                        {
+                            if(cont==index)
+                            {
+                                output=Jmanager->toJSON("type@"+temp->getValue()->getObstacleType()+"$fila@"+to_string(temp->getValue()->getLine())+"$col@"+to_string(temp->getValue()->getColumn()));
+                                boost::erase_all(output,"\\");
+                                boost::erase_all(output,"n");
+                                cout<<output<<endl;
+                                sendMessage(output);
+                                break;
+                            }
+                            cont++;
+                            temp=temp->getNext();
+                        }
                     }
-                    output=Jmanager->toJSON(output+"$size@"+to_string(matriz->getTowers()->getLength()));
-                    this->sendMessage(output);
+                    else
+                    {
+                        sendMessage("$");
+                    }
                 }
             }
         }

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Cell.h
 vector
 -
 string
 -
 ../Structures/List.h
-/home/dcamachog1501/Desktop/GBP_Server/Structures/List.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Structures/List.h
 
-/home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.h
 algorithm
 -
 boost/property_tree/json_parser.hpp
@@ -30,15 +30,15 @@ boost/property_tree/ptree.hpp
 iostream
 -
 Matrix.h
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.h
 
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.h
 Cell.h
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Cell.h
 ../Structures/List.h
-/home/dcamachog1501/Desktop/GBP_Server/Structures/List.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Structures/List.h
 
-/home/dcamachog1501/Desktop/GBP_Server/Server/Server.cpp
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.cpp
 iostream
 -
 stdio.h
@@ -96,9 +96,9 @@ thread
 thread
 -
 Server.h
-/home/dcamachog1501/Desktop/GBP_Server/Server/Server.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.h
 
-/home/dcamachog1501/Desktop/GBP_Server/Server/Server.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.h
 string
 -
 string.h
@@ -108,13 +108,13 @@ boost/property_tree/ptree.hpp
 boost/property_tree/json_parser.hpp
 -
 ../Logic/Matrix.h
-/home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.h
 ../Logic/JSONManager.h
-/home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.h
 
-/home/dcamachog1501/Desktop/GBP_Server/Structures/List.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Structures/List.h
 Node.h
-/home/dcamachog1501/Desktop/GBP_Server/Structures/Node.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Structures/Node.h
 
-/home/dcamachog1501/Desktop/GBP_Server/Structures/Node.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Structures/Node.h
 

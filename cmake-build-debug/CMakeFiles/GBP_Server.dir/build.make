@@ -43,10 +43,10 @@ RM = /snap/clion/69/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dcamachog1501/Desktop/GBP_Server
+CMAKE_SOURCE_DIR = /home/dcamachog1501/Induced_Desktop/GBP_Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GBP_Server.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/GBP_Server.dir/flags.make
 
 CMakeFiles/GBP_Server.dir/Main/main.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
 CMakeFiles/GBP_Server.dir/Main/main.cpp.o: ../Main/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GBP_Server.dir/Main/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Main/main.cpp.o -c /home/dcamachog1501/Desktop/GBP_Server/Main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GBP_Server.dir/Main/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Main/main.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Main/main.cpp
 
 CMakeFiles/GBP_Server.dir/Main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Main/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/GBP_Server/Main/main.cpp > CMakeFiles/GBP_Server.dir/Main/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Main/main.cpp > CMakeFiles/GBP_Server.dir/Main/main.cpp.i
 
 CMakeFiles/GBP_Server.dir/Main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Main/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/GBP_Server/Main/main.cpp -o CMakeFiles/GBP_Server.dir/Main/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Main/main.cpp -o CMakeFiles/GBP_Server.dir/Main/main.cpp.s
 
 CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
 CMakeFiles/GBP_Server.dir/Server/Server.cpp.o: ../Server/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GBP_Server.dir/Server/Server.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Server/Server.cpp.o -c /home/dcamachog1501/Desktop/GBP_Server/Server/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GBP_Server.dir/Server/Server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Server/Server.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.cpp
 
 CMakeFiles/GBP_Server.dir/Server/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Server/Server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/GBP_Server/Server/Server.cpp > CMakeFiles/GBP_Server.dir/Server/Server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.cpp > CMakeFiles/GBP_Server.dir/Server/Server.cpp.i
 
 CMakeFiles/GBP_Server.dir/Server/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Server/Server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/GBP_Server/Server/Server.cpp -o CMakeFiles/GBP_Server.dir/Server/Server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.cpp -o CMakeFiles/GBP_Server.dir/Server/Server.cpp.s
 
 CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
 CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o: ../Logic/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o -c /home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Cell.cpp
 
 CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.cpp > CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Cell.cpp > CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.i
 
 CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/GBP_Server/Logic/Cell.cpp -o CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Cell.cpp -o CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.s
 
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o: ../Logic/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o -c /home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.cpp
 
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.cpp > CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.cpp > CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.i
 
 CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/GBP_Server/Logic/Matrix.cpp -o CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.cpp -o CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.s
 
 CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
 CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o: ../Logic/JSONManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o -c /home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.cpp
 
 CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.cpp > CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.cpp > CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.i
 
 CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/GBP_Server/Logic/JSONManager.cpp -o CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.cpp -o CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s
 
 # Object files for target GBP_Server
 GBP_Server_OBJECTS = \
@@ -140,7 +140,7 @@ GBP_Server: CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/build.make
 GBP_Server: CMakeFiles/GBP_Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GBP_Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GBP_Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GBP_Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/GBP_Server.dir/clean:
 .PHONY : CMakeFiles/GBP_Server.dir/clean
 
 CMakeFiles/GBP_Server.dir/depend:
-	cd /home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dcamachog1501/Desktop/GBP_Server /home/dcamachog1501/Desktop/GBP_Server /home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug /home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug /home/dcamachog1501/Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dcamachog1501/Induced_Desktop/GBP_Server /home/dcamachog1501/Induced_Desktop/GBP_Server /home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug /home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug /home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GBP_Server.dir/depend
 
