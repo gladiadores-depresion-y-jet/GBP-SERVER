@@ -12,24 +12,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b527ca-8308-43bf-a2be-03a82d7d9e9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Objects/Algorithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Algorithm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Fitness.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Fitness.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Gladiator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Gladiator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Population.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/Population.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GBP_Server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GBP_Server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GBP_Server.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GBP_Server.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
@@ -47,11 +72,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="384">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -59,89 +84,95 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/Server.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="165" selection-start-line="165" selection-end-line="165" />
+            <state relative-caret-position="255">
+              <caret line="133" column="51" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Structures/Node.h">
+        <entry file="file://$PROJECT_DIR$/Objects/Gladiator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="1915">
+              <caret line="262" column="1" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/boost/optional/optional.hpp">
+        <entry file="file://$PROJECT_DIR$/Objects/Population.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5235">
-              <caret line="349" selection-start-line="349" selection-end-line="349" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logic/JSONManager.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="127">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
-                <element signature="e#49#73#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/basic_string.tcc">
+        <entry file="file://$PROJECT_DIR$/Objects/Fitness.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3165">
-              <caret line="211" selection-start-line="211" selection-end-line="211" />
+            <state relative-caret-position="324">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logic/Cell.cpp">
+        <entry file="file://$PROJECT_DIR$/Objects/Fitness.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logic/Matrix.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3435">
-              <caret line="229" column="35" selection-start-line="229" selection-start-column="35" selection-end-line="229" selection-end-column="35" />
+            <state relative-caret-position="248">
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
               <folding>
-                <element signature="e#48#65#0" expanded="true" />
+                <element signature="e#100#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logic/Matrix.h">
+        <entry file="file://$PROJECT_DIR$/Objects/Population.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2595">
-              <caret line="173" column="35" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
+            <state relative-caret-position="353">
+              <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/Server.h">
+        <entry file="file://$PROJECT_DIR$/Objects/Algorithm.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+            <state relative-caret-position="2220">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
+              <folding>
+                <element signature="e#41#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Objects/Algorithm.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Objects/Gladiator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <folding>
+                <element signature="e#104#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,18 +200,27 @@
         <option value="$PROJECT_DIR$/Logic/JSONManager.h" />
         <option value="$PROJECT_DIR$/Logic/Matrix.h" />
         <option value="$PROJECT_DIR$/Server/Server.h" />
-        <option value="$PROJECT_DIR$/Main/main.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
         <option value="$PROJECT_DIR$/Logic/Matrix.cpp" />
         <option value="$PROJECT_DIR$/Logic/JSONManager.cpp" />
         <option value="$PROJECT_DIR$/Server/Server.cpp" />
+        <option value="$PROJECT_DIR$/Objects/Gladiator.cpp" />
+        <option value="$PROJECT_DIR$/Objects/Population.cpp" />
+        <option value="$PROJECT_DIR$/Objects/Fitness.cpp" />
+        <option value="$PROJECT_DIR$/Objects/Algorithm.cpp" />
+        <option value="$PROJECT_DIR$/Objects/Fitness.h" />
+        <option value="$PROJECT_DIR$/Objects/Population.h" />
+        <option value="$PROJECT_DIR$/Objects/Algorithm.h" />
+        <option value="$PROJECT_DIR$/Objects/Gladiator.h" />
+        <option value="$PROJECT_DIR$/Main/main.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="960" />
-    <option name="height" value="741" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="669" />
+    <option name="y" value="24" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -189,7 +229,35 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -245,28 +313,28 @@
       <workItem from="1557032469779" duration="11000" />
       <workItem from="1557198259106" duration="131000" />
       <workItem from="1557291216383" duration="15249000" />
+      <workItem from="1557385877369" duration="4400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38947000" />
+    <option name="totallyTimeSpent" value="43347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13447703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2812749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.90909094" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.90909094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5305785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32561985" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3255814" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -309,21 +377,6 @@
           <url>file://$PROJECT_DIR$/Logic/Matrix.h</url>
           <line>171</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Server/Server.cpp</url>
-          <line>165</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Server/Server.cpp</url>
-          <line>196</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Server/Server.cpp</url>
-          <line>182</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -415,15 +468,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3435">
           <caret line="229" column="35" selection-start-line="229" selection-start-column="35" selection-end-line="229" selection-end-column="35" />
-          <folding>
-            <element signature="e#48#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Logic/Matrix.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
+        <state relative-caret-position="2580">
           <caret line="173" column="35" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
         </state>
       </provider>
@@ -435,20 +485,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Server/Server.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="133" column="51" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Gladiator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1915">
+          <caret line="262" column="1" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Fitness.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Algorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#41#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/Server.cpp">
+    <entry file="file://$PROJECT_DIR$/Objects/Fitness.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="248">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding>
+            <element signature="e#100#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Population.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Population.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Algorithm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Gladiator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

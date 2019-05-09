@@ -1,4 +1,4 @@
-# Install script for directory: /home/dcamachog1501/Induced_Desktop/GBP_Server
+# Install script for directory: /home/david/Desktop/Server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/david/Desktop/Server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
