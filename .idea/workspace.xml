@@ -14,14 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b527ca-8308-43bf-a2be-03a82d7d9e9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Objects/Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Algorithm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Algorithm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Population.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Population.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.o" beforeDir="false" />
-    </list>
+    <list default="true" id="b9b527ca-8308-43bf-a2be-03a82d7d9e9a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +78,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Objects/Population.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="48">
               <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -202,9 +195,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="587" />
-    <option name="y" value="62" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
     <option name="width" value="673" />
     <option name="height" value="555" />
   </component>
@@ -306,12 +298,12 @@
       <workItem from="1557198259106" duration="131000" />
       <workItem from="1557291216383" duration="15249000" />
       <workItem from="1557385877369" duration="4400000" />
-      <workItem from="1557427796541" duration="33250000" />
+      <workItem from="1557427796541" duration="34020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85097000" />
+    <option name="totallyTimeSpent" value="85867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -572,7 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Objects/Population.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="48">
           <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
