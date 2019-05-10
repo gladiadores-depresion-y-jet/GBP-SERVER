@@ -3,4 +3,4 @@ project(GBP_Server)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GBP_Server Main/main.cpp Server/Server.cpp Logic/Cell.cpp Logic/Cell.h Logic/Matrix.cpp Logic/Matrix.h Structures/List.h Structures/Node.h Logic/JSONManager.cpp Logic/JSONManager.h)
+add_executable(GBP_Server Main/main.cpp Server/Server.cpp Logic/Cell.cpp Logic/Cell.h Logic/Matrix.cpp Logic/Matrix.h Structures/List.h Structures/Node.h Logic/JSONManager.cpp Logic/JSONManager.h Objects/Gladiator.cpp Objects/Gladiator.h Objects/Population.cpp Objects/Population.h Objects/Fitness.cpp Objects/Fitness.h Objects/Algorithm.cpp Objects/Algorithm.h)

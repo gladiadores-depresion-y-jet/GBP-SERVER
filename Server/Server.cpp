@@ -31,6 +31,8 @@
 #include <thread>
 #include<thread>
 #include "Server.h"
+#include "../Objects/Gladiator.h"
+#include "../Objects/Algorithm.h"
 
 #define TRUE   1
 #define PORT 54000
@@ -55,8 +57,8 @@ void Server::init()
     {
         matriz->randomObstacleSetter(beg,end);
     }
-    this->matriz->AstarFindPath(0,0,9,9);
     this->matriz->print();
+
 
     int opt = TRUE;
     int master_socket , addrlen , new_socket ,activity, message , sd;
@@ -150,7 +152,7 @@ void Server::init()
         if (FD_ISSET( sd , &readfds)) {
             //Check if it was for closing , and also read the
             //incoming greet
-            if ((message = read(sd, buffer, 1024)) == 0) {
+            if ((message = read(sd, buffer, 2048)) == 0) {
                 //Somebody disconnected , get his details and print
                 getpeername(sd, (struct sockaddr *) &address, \
                         (socklen_t *) &addrlen);
@@ -165,13 +167,23 @@ void Server::init()
             {
                 string message=buffer;
                 cout<<"Comando recibido: "+message<<endl;
-                if(message=="position%")
+                if(message=="position")
                 {
                     sendMessage("send");
-                    memset(this->buffer, 0, 1024);
+                    memset(this->buffer, 0, 2048);
                     string s= receiveMessage();
                     vector<string> input;
                     boost::split(input,s, boost::is_any_of("$"));
+                    matriz->resetPath();
+                    if(input.at(0)=="Astar")
+                    {
+                        matriz->AstarFindPath(0,0,9,9);
+                    }
+                    if(input.at(0)=="Back")
+                    {
+                        matriz->BacktrackingFindPath(0,0,9,9);
+                    }
+                    matriz->print();
                     int pos=stoi(input.at(1));
                     Cell* c=this->matriz->getStep(pos,input.at(0));
                     string out=Jmanager->toJSON("line@"+to_string(c->getLine())+"$column@"+to_string(c->getColumn()));
@@ -204,9 +216,34 @@ void Server::init()
                     }
                     else
                     {
-                        sendMessage("$");
+                        sendMessage("stop");
                     }
                 }
+                else if(message=="NewGlad")
+                {
+                    if(popAstar==nullptr)
+                    {
+                        this->popAstar= new Population(100,true);
+                        this->popBack= new Population(100,true);
+
+                        Gladiator Astar=popAstar->getFittest();
+                        Gladiator Back= popBack->getFittest();
+
+                        sendMessage(GladToJSON(Astar));
+                        string rec= receiveMessage();
+                        sendMessage(GladToJSON(Back));
+                    }
+                    else
+                    {
+                        Gladiator Astar=Algorithm::getNext(popAstar);
+                        Gladiator Back= Algorithm::getNext(popBack);
+
+                        sendMessage(GladToJSON(Astar));
+                        string rec= receiveMessage();
+                        sendMessage(GladToJSON(Back));
+                    }
+                }
+
             }
         }
     }
@@ -221,9 +258,26 @@ void Server::sendMessage(string s) {
 }
 string Server::receiveMessage()
 {
-    memset(this->buffer, 0, 1024);
-    int r = read(this->socketC, buffer, 1024);
+    memset(this->buffer, 0, 2048);
+    int r = read(this->socketC, buffer, 2048);
     string g = string(buffer, 0, r);
     return g;
+}
+
+string Server::GladToJSON(Gladiator Aquiles)
+{
+    string output="";
+    output+="Upper@"+to_string(Aquiles.getUpper())+"$";
+    output+="Lower@"+to_string(Aquiles.getLower())+"$";
+    output+="Emotional@"+to_string(Aquiles.getEmotionalI())+"$";
+    output+="Physical@"+to_string(Aquiles.getPhysical())+"$";
+    output+="Age@"+to_string(Aquiles.getAge())+"$";
+    output+="Probabiity@"+to_string(Aquiles.getProbability())+"$";
+    output+="Estiamted@"+to_string(Aquiles.getEstimatedG())+"$";
+    output+="ID@"+to_string(Aquiles.getId())+"$";
+    output+="Fitness@"+to_string(Aquiles.getFitness())+"$";
+    output+="Resistance@"+to_string(Aquiles.getResistance());
+
+    return Jmanager->toJSON(output);
 }
 

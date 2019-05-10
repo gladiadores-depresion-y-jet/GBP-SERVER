@@ -507,8 +507,11 @@ void Matrix::resetPath()
         for(int t=0;t<columns;t++)
         {
             get(i,t)->unsetAsPath();
+            get(i,t)->unsetParent();
         }
     }
+    this->AstarSteps=0;
+    this->BacktrackSteps=0;
 }
 
 void Matrix::resetAll()
@@ -749,7 +752,7 @@ Cell *Matrix::getStep(int i,string type)
         {
             int cont=BacktrackSteps-i;
             Cell* temp=BacktrackingHead;
-            for(int i=0;i<cont;i++)
+            for(int i=0;i<(cont-1);i++)
             {
                 if(temp->getParent()==nullptr)
                 {

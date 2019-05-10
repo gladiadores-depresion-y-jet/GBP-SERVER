@@ -122,13 +122,69 @@ CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.cpp -o CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.s
 
+CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
+CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o: ../Objects/Gladiator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.cpp
+
+CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.cpp > CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.i
+
+CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.cpp -o CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.s
+
+CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
+CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o: ../Objects/Population.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.cpp
+
+CMakeFiles/GBP_Server.dir/Objects/Population.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Objects/Population.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.cpp > CMakeFiles/GBP_Server.dir/Objects/Population.cpp.i
+
+CMakeFiles/GBP_Server.dir/Objects/Population.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Objects/Population.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.cpp -o CMakeFiles/GBP_Server.dir/Objects/Population.cpp.s
+
+CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
+CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o: ../Objects/Fitness.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Fitness.cpp
+
+CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Fitness.cpp > CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.i
+
+CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Fitness.cpp -o CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.s
+
+CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
+CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o: ../Objects/Algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o -c /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.cpp
+
+CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.cpp > CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.i
+
+CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.cpp -o CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.s
+
 # Object files for target GBP_Server
 GBP_Server_OBJECTS = \
 "CMakeFiles/GBP_Server.dir/Main/main.cpp.o" \
 "CMakeFiles/GBP_Server.dir/Server/Server.cpp.o" \
 "CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o" \
 "CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o" \
-"CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o"
+"CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o" \
+"CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o" \
+"CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o" \
+"CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o" \
+"CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o"
 
 # External object files for target GBP_Server
 GBP_Server_EXTERNAL_OBJECTS =
@@ -138,9 +194,13 @@ GBP_Server: CMakeFiles/GBP_Server.dir/Server/Server.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o
+GBP_Server: CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o
+GBP_Server: CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o
+GBP_Server: CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o
+GBP_Server: CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/build.make
 GBP_Server: CMakeFiles/GBP_Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GBP_Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable GBP_Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GBP_Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

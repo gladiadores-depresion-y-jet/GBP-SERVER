@@ -12,6 +12,8 @@
 #include <boost/property_tree/json_parser.hpp>
 #include "../Logic/Matrix.h"
 #include "../Logic/JSONManager.h"
+#include "../Objects/Gladiator.h"
+#include "../Objects/Population.h"
 /**
  * @version 1.0
  * @file Server.h
@@ -26,7 +28,11 @@ class Server {
 
 private:
     Matrix* matriz;
-    char buffer[1025];
+
+    Population* popAstar;
+    Population* popBack;
+
+    char buffer[2048];
     int socketC;
     JSONManager* Jmanager;
 public:
@@ -41,8 +47,8 @@ public:
      * @param s mensaje a enviar
      */
     void sendMessage(string s);
-
     string receiveMessage();
+    string GladToJSON(Gladiator G);
 };
 
 

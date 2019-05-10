@@ -38,6 +38,24 @@ Cell.h
 ../Structures/List.h
 /home/dcamachog1501/Induced_Desktop/GBP_Server/Structures/List.h
 
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.h
+Population.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.h
+
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.h
+string
+-
+string.h
+-
+zconf.h
+-
+vector
+-
+
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.h
+Gladiator.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.h
+
 /home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.cpp
 iostream
 -
@@ -97,6 +115,10 @@ thread
 -
 Server.h
 /home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.h
+../Objects/Gladiator.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.h
+../Objects/Algorithm.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.h
 
 /home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.h
 string
@@ -111,6 +133,10 @@ boost/property_tree/json_parser.hpp
 /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.h
 ../Logic/JSONManager.h
 /home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.h
+../Objects/Gladiator.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.h
+../Objects/Population.h
+/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.h
 
 /home/dcamachog1501/Induced_Desktop/GBP_Server/Structures/List.h
 Node.h
