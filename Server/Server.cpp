@@ -60,6 +60,7 @@ void Server::init()
     this->matriz->print();
 
 
+
     int opt = TRUE;
     int master_socket , addrlen , new_socket ,activity, message , sd;
     int max_sd;
@@ -226,21 +227,28 @@ void Server::init()
                         this->popAstar= new Population(100,true);
                         this->popBack= new Population(100,true);
 
-                        Gladiator Astar=popAstar->getFittest();
-                        Gladiator Back= popBack->getFittest();
+                        /*Gladiator Astar= Algorithm::getNext(popAstar);
+                        Gladiator Back= Algorithm::getNext(popBack);*/
+
+                        Gladiator Astar= this->popAstar->getFittest();
+                        Gladiator Back= this->popBack->getFittest();
 
                         sendMessage(GladToJSON(Astar));
+                        memset(this->buffer, 0, 2048);
                         string rec= receiveMessage();
                         sendMessage(GladToJSON(Back));
+                        memset(this->buffer, 0, 2048);
                     }
                     else
                     {
-                        Gladiator Astar=Algorithm::getNext(popAstar);
+                        Gladiator Astar= Algorithm::getNext(popAstar);
                         Gladiator Back= Algorithm::getNext(popBack);
 
                         sendMessage(GladToJSON(Astar));
+                        memset(this->buffer, 0, 2048);
                         string rec= receiveMessage();
                         sendMessage(GladToJSON(Back));
+                        memset(this->buffer, 0, 2048);
                     }
                 }
 
@@ -272,8 +280,8 @@ string Server::GladToJSON(Gladiator Aquiles)
     output+="Emotional@"+to_string(Aquiles.getEmotionalI())+"$";
     output+="Physical@"+to_string(Aquiles.getPhysical())+"$";
     output+="Age@"+to_string(Aquiles.getAge())+"$";
-    output+="Probabiity@"+to_string(Aquiles.getProbability())+"$";
-    output+="Estiamted@"+to_string(Aquiles.getEstimatedG())+"$";
+    output+="Probability@"+to_string(Aquiles.getProbability())+"$";
+    output+="Estimated@"+to_string(Aquiles.getEstimatedG())+"$";
     output+="ID@"+to_string(Aquiles.getId())+"$";
     output+="Fitness@"+to_string(Aquiles.getFitness())+"$";
     output+="Resistance@"+to_string(Aquiles.getResistance());

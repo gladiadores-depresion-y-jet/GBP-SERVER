@@ -26,12 +26,7 @@ public:
      * @return nueva poblacion
      */
     static Population envolvePopulation(Population * pop);
-    /**
-     * Selecciona 5 individuos al azar de la poblacion y toma el mejor
-     * @param pop poblacion de la cual tomar al mejor individuo de los 5
-     * @return el individuo con mejor fitness para ser cruzado
-     */
-    static Gladiator tournamentSelection(Population pop);
+
     /**
      * Funcion que cruza dos individuos
      * @param glad1 gladiador a cruzar

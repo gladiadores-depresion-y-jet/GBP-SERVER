@@ -14,6 +14,7 @@
 #include "../Logic/JSONManager.h"
 #include "../Objects/Gladiator.h"
 #include "../Objects/Population.h"
+#include "../Objects/Algorithm.h"
 /**
  * @version 1.0
  * @file Server.h
@@ -31,6 +32,7 @@ private:
 
     Population* popAstar;
     Population* popBack;
+
 
     char buffer[2048];
     int socketC;

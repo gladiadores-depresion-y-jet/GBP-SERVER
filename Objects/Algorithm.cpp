@@ -7,9 +7,9 @@
 #include <iostream>
 #include "Algorithm.h"
 
-static std::random_device rd;
+/*static std::random_device rd;
 static std::mt19937 rng(rd());
-static std::uniform_int_distribution<int> uni(10,99);
+//static std::uniform_int_distribution<int> uni(10,99);
 
 // Probabilidades de mutacion y cantidad a sumar y restar
 static std::uniform_int_distribution<int> uniMut(0,99);
@@ -18,10 +18,10 @@ static std::uniform_int_distribution<int> uniGen(0,3);
 
 // Probabilidades de inversion y rango de genes en el que puede ocurrir el cambio
 static std::uniform_int_distribution<int> uniInv(0,99);
-static std::uniform_int_distribution<int> uniGenInv(0,29);
+//static std::uniform_int_distribution<int> uniGenInv(0,29);
 
 //cantidad de años a sumar o restar
-static std::uniform_int_distribution<int> uniAge(-2,2);
+static std::uniform_int_distribution<int> uniAge(-2,2);*/
 
 // torunament ya no se necesita
 static int tournamentSize = 5;
@@ -40,15 +40,15 @@ Population Algorithm::envolvePopulation(Population * pop) {
     //reproducir a los diez mejores y sacar 10
 
     //añadiendo los cruces de los mejores
-    //TODO::Realizar de manera distinta los cruces
+
     bool flag = true;
     for(int i = 0 ; i<4; i++){
 
         for(int j = i+1 ; j<5; j++){
-
             Gladiator newGladiator = inversion(mutate(crossover(pop->getGladiator(i),pop->getGladiator(j),flag)));
             //introducirlos a la poblacion
             newPopulation.saveInitIndi(newGladiator);
+            flag = !flag;
 
         }
     }
@@ -58,34 +58,12 @@ Population Algorithm::envolvePopulation(Population * pop) {
     }
     newPopulation.calcALLProbability();
 
-    //reproducir del 40 al 89 e introducir a la poblacion
-//    for (int i = 40; i < sortPop.getSize()-10; i++) {
-//
-//        flag = i % 2 != 0;
-//        Gladiator indiv1 = tournamentSelection(sortPop);
-//        Gladiator indiv2 = tournamentSelection(sortPop);
-//        Gladiator newIndiv = mutate(crossover(indiv1, indiv2 , flag));
-//        //introducirlos a la poblacion
-//        newPopulation.saveInitIndi(newIndiv);
-//    }
-
-
     return newPopulation;
 
 }
 
-Gladiator Algorithm::tournamentSelection(Population pop) {
-    Population tournament = Population(tournamentSize,false);
-    for(int i = 0 ; i<tournamentSize ; i++){
-        auto random = uni(rng);
-        tournament.saveInitIndi(pop.getGladiator(random));
-    }
-    Gladiator g = tournament.getFittest();
-    return g;
-}
 
 
-//TODO:Cambiar con fors ya que los genes van a ser mas largos
 
 Gladiator Algorithm::crossover(Gladiator glad1, Gladiator glad2, bool flag) {
 
@@ -104,14 +82,21 @@ Gladiator Algorithm::crossover(Gladiator glad1, Gladiator glad2, bool flag) {
     return *result;
 
 }
-//TODO: hacer la funcion de inversion
+
+
 Gladiator Algorithm::inversion(Gladiator indiv) {
     Gladiator glad = indiv;
     vector<int> newVector = glad.getGENES();
 
-    int invetir =  uniInv(rng);
+    std::random_device rd;
+    std::mt19937 rng(rd());
+    std::uniform_int_distribution<int> uni(0,99);
+
+
+    //int invertir =  uniInv(rng);
+    int invertir = uni(rng);
     int aux;
-    if(invetir== 67){
+    if(invertir == 67){
         for(int i = 0 ;i <2 ; i++){
             aux = newVector[i];
             newVector[i] = newVector[4-i];
@@ -131,14 +116,35 @@ Gladiator Algorithm::inversion(Gladiator indiv) {
 Gladiator Algorithm::mutate(Gladiator indiv) {
 
     Gladiator glad = indiv;
-    int random = uniMut(rng);
+
+    std::random_device rd;
+    std::mt19937 rng(rd());
+    std::uniform_int_distribution<int> uni(0,99);
+    std::uniform_int_distribution<int> uni1(0,15);
+    std::uniform_int_distribution<int> uni2(0,3);
+    std::uniform_int_distribution<int> uni3(-2,2);
+
+
+    //int random = uniMut(rng);
+    int random = uni(rng);
+
     if(std::find(mutationRate.begin(), mutationRate.end(), random) != mutationRate.end()) {
         /* mutationRate contains random */
-        int sum_rest = uniSR(rng);
-        int randomGen = uniGen(rng);
-        int ranAge = uniAge(rng);
+
+        int sum_rest = uni1(rng);
+
+        int randomGen = uni2(rng);
+
+        int ranAge = uni3(rng);
+
         int genAge = glad.getGene(4)+ranAge;
+        if(genAge > 99){
+            genAge = 99;
+        }else if(genAge < 0){
+            genAge = 0;
+        }
         glad.setGenes(4,genAge);
+
         int gene = glad.getGene(randomGen)+sum_rest;
         if(gene>99){
             gene = 99;

@@ -1,6 +1,7 @@
 #include <utility>
 #include <iostream>
 #include <time.h>
+#include <random>
 
 //
 // Created by daniel on 29/04/19.
@@ -13,16 +14,24 @@ Population::Population(int populationSize, bool initialise) {
     individuals =  vector<Gladiator>();
     fittest = new Gladiator();
     generation = new int(1);
-    srand(time(0));
-    int valor = 40;
+    //srand(time(0));
+    std::random_device rd;
+    std::mt19937 rng(rd());
+    std::uniform_int_distribution<int> uni(0,40);
+    std::uniform_int_distribution<int> uni1(0,25);
+    //int valor = 40;
     if(initialise){
         for(int i = 0 ; i<populationSize ; i++){
-            int u = rand()%valor;
+/*            int u = rand()%valor;
             int l = rand()%valor;
             int e = rand()%valor;
             int p = rand()%valor;
-            int a = rand()%25;
-
+            int a = rand()%25;*/
+            int u = uni(rng);
+            int l = uni(rng);
+            int e = uni(rng);
+            int p = uni(rng);
+            int a = uni1(rng);
 
             Gladiator newGlad = Gladiator(u,l,e,p,a);
             newGlad.calculateResistance();
