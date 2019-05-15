@@ -24,6 +24,7 @@ class Population {
     Gladiator * fittest;
     vector<Gladiator>  individuals;
     int * generation;
+    vector<int> averAge;
 
 public:
 
@@ -83,6 +84,12 @@ public:
      * @return
      */
     int getGeneration();
+    /**
+     * Obtiene el promedio de todos los fitness de la poblacion
+     * @return
+     */
+    float getAverage();
+
 
 };
 

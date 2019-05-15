@@ -273,6 +273,16 @@ void Server::init()
                     this->matriz->resetPath();
                     this->matriz->randomObstacleSetter(matriz->get(0,0),matriz->get(9,9));
                 }
+                else if(output=="mix")
+                {
+                    this->matriz->Mixer(this->matriz->get(0,0),this->matriz->get(9,9));
+                    sendMessage("done");
+                    //this->matriz->print();
+                }
+                else if(output=="final")
+                {
+                    sendMessage(to_string(this->popAstar->getAverage())+","+to_string(this->popBack->getAverage()));
+                }
 
             }
         }
@@ -314,7 +324,15 @@ string Server::GladToJSON(Gladiator Aquiles)
     output+="Estimated@"+to_string(Aquiles.getEstimatedG())+"$";
     output+="ID@"+to_string(Aquiles.getId())+"$";
     output+="Fitness@"+to_string(Aquiles.getFitness())+"$";
+    //añadiendo nuevos atributos
+    output+="Mother@"+Aquiles.getMother()+"$";
+    output+="Father@"+Aquiles.getFather()+"$";
+    output+="Inversion@"+Aquiles.getInversion()+"$";
+    output+="Mutation@"+Aquiles.getMutation()+"$";
+    output+="MyGenes@"+Aquiles.genesToString()+"$";
+
     output+="Resistance@"+to_string(Aquiles.getResistance());
+
 
     return Jmanager->toJSON(output);
 }

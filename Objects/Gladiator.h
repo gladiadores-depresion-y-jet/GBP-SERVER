@@ -30,7 +30,8 @@ public:
 
 private:
     int id, age ,estimatedG , emotionalI, physical , upper , lower, resistance;
-
+    string inversion , mutation;
+    string myGenes , father , mother ;
     float fitness ,probability;
 
     vector<int> genes ;
@@ -215,6 +216,42 @@ public:
      * @param g
      */
     void setGENE(vector<int> g);
+    /**
+     * Asigna un string para saber si invirtio
+     * @param invert
+     */
+    void setInversionString(string invert);
+    /**
+     * Asigna un string para saber si muto
+     * @param mutate
+     */
+    void setMuatationString(string mutate);
+    /**
+     * Asigna los genes de los padres
+     * @param f
+     * @param m
+     */
+    void setFathers(string f , string m);
+    /**
+     * Obtiene informacion sobre si mutó
+     * @return
+     */
+    string getMutation();
+    /**
+     * Obtiene informacion sobre si se produjo inversion
+     * @return
+     */
+    string getInversion();
+    /**
+     * Obtiene informacion acerca de los genes de la madre
+     * @return
+     */
+    string getMother();
+    /**
+     * Obtiene informacion acerca de los genes del padre
+     * @return
+     */
+    string getFather();
 
 
 

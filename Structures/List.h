@@ -58,21 +58,19 @@ public:
         }
         else
         {
-            while(temp->getNext()->getOrder()!=o)
-            {
-                temp=temp->getNext();
+            while (temp->getNext()->getOrder() != o) {
+                temp = temp->getNext();
             }
-            Node<T>* temp2=temp->getNext();
+            Node<T> *temp2 = temp->getNext();
             temp->setNext(temp2->getNext());
             temp2->purge();
-            temp= temp->getNext();
-            while(temp!= nullptr)
-            {
-                temp->setOrder(temp->getOrder()-1);
-                temp=temp->getNext();
+            temp = temp->getNext();
+            while (temp != nullptr) {
+                temp->setOrder(temp->getOrder() - 1);
+                temp = temp->getNext();
             }
-            delete(temp);
-            delete(temp2);
+            delete (temp);
+            delete (temp2);
         }
         length--;
     }
@@ -94,9 +92,10 @@ public:
     }
     void purge()
     {
-        for(int i=0;i<this->length;i++)
+        int l=this->length;
+        for(int i=1;i<=l;i++)
         {
-            del(i);
+            del(1);
         }
     }
 };

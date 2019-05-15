@@ -31,7 +31,11 @@ Gladiator::Gladiator() {
     this->estimatedG = 0;
     this->probability = 0;
     this->fitness = 0;
-    //this->init();
+    this->mutation = "false";
+    this->inversion = "false";
+    this->father =  "[0,0,0,0,0]";
+    this->mother =  "[0,0,0,0,0]";
+
 }
 
 
@@ -47,7 +51,11 @@ Gladiator::Gladiator(int ag, int emot, int phy, int up, int low) {
     this->probability = 0;
     this->estimatedG = 0;
     this->fitness = 0;
-    //this->init();
+    this->mutation = "false";
+    this->inversion = "false";
+    this->father =  "[0,0,0,0,0]";
+    this->mother =  "[0,0,0,0,0]";
+
 }
 
 void Gladiator::init() {
@@ -56,7 +64,7 @@ void Gladiator::init() {
 
 void Gladiator::generateIndividual() {
 
-    //TODO: crear ruleta de porcentajes
+
 
     upper = uni(rng);
     lower = uni(rng);
@@ -105,7 +113,7 @@ vector<int> * Gladiator::decTobin(int num) {
     }
     return binario;
 }
-//TODO: metodo para calcular la resistencia podria cambiar
+
 bool Gladiator::calculateResistance() {
     int multi = 0;
     if(this->age >= 0 & this->age<=10){
@@ -156,7 +164,7 @@ string Gladiator::genesToString() {
     }geneString+=to_string(getGene(defaultGeneLen-1))+"]";
     return geneString;
 }
-//TODO: cambiar metodo , convertir a binario y añadir cada cadena a la cadena de genes
+
 void Gladiator::setAtributeTovector(int upper, int lower, int emoti, int phy, int age) {
     genes.push_back(upper);
     genes.push_back(lower);
@@ -169,7 +177,7 @@ vector<int> Gladiator::getGENES() {
     return this->genes;
 }
 
-//TODO: cambiar metodo , dividir el array de genes en 5 partes y convertir cada parte a decimal y asignar al atributo
+
 void Gladiator::setVectorToAtributes() {
     this->upper = this->genes.at(0);
     this->lower = this->genes.at(1);
@@ -260,4 +268,34 @@ void Gladiator::calculateProbability() {
 
 void Gladiator::setGENE(vector<int> g) {
     this->genes = g;
+}
+
+void Gladiator::setInversionString(string invert) {
+    this->inversion = invert;
+}
+
+void Gladiator::setMuatationString(string mutate) {
+    this->mutation = mutate;
+}
+
+void Gladiator::setFathers(string f, string m) {
+    this->father = f;
+    this->mother = m;
+
+}
+
+string Gladiator::getMutation() {
+    return this->mutation;
+}
+
+string Gladiator::getInversion() {
+    return this->inversion;
+}
+
+string Gladiator::getMother() {
+    return this->mother;
+}
+
+string Gladiator::getFather() {
+    return this->father;
 }

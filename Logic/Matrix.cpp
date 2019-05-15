@@ -114,7 +114,15 @@ void Matrix::print()
             else if(temp2->getValue()->isPath())
             {
                 if(temp2->getValue()->getParent()!= nullptr)
-                    four+="   "+directionGetter(temp2->getValue(),temp2->getValue()->getParent())+"  |";
+                    if(directionGetter(temp2->getValue(),temp2->getValue()->getParent()).size()==1)
+                    {
+                        four+="   "+directionGetter(temp2->getValue(),temp2->getValue()->getParent())+"  |";
+                    }
+                    else
+                    {
+                        four+="   "+directionGetter(temp2->getValue(),temp2->getValue()->getParent())+" |";
+                    }
+
                 else
                     four+="   $  |";
             }

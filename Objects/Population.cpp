@@ -14,19 +14,16 @@ Population::Population(int populationSize, bool initialise) {
     individuals =  vector<Gladiator>();
     fittest = new Gladiator();
     generation = new int(1);
-    //srand(time(0));
+    this->averAge = vector<int>();
+
     std::random_device rd;
     std::mt19937 rng(rd());
     std::uniform_int_distribution<int> uni(0,40);
     std::uniform_int_distribution<int> uni1(0,25);
-    //int valor = 40;
+
     if(initialise){
         for(int i = 0 ; i<populationSize ; i++){
-/*            int u = rand()%valor;
-            int l = rand()%valor;
-            int e = rand()%valor;
-            int p = rand()%valor;
-            int a = rand()%25;*/
+
             int u = uni(rng);
             int l = uni(rng);
             int e = uni(rng);
@@ -46,7 +43,6 @@ Population::Population(int populationSize, bool initialise) {
 Gladiator Population::getGladiator(int index) {
     return individuals.at(index);
 }
-//TODO: fijarse con debugin como escoge con el fitness
 Gladiator Population::getFittest() {
 
     Gladiator fit = individuals.at(0);
@@ -96,3 +92,15 @@ void Population::plusGeneration() {
 int Population::getGeneration() {
     return *generation;
 }
+
+float Population::getAverage() {
+    float cont = 0;
+    int average = 0;
+    for(int i = 0 ; i < this->individuals.size() ; i++){
+        cont+=this->getGladiator(i).getFitness();
+    }
+    average = cont/this->individuals.size();
+    return average;
+}
+
+
