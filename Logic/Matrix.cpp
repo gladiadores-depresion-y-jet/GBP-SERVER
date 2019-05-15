@@ -5,6 +5,7 @@
 #include <string>
 #include <iostream>
 #include <random>
+#include <boost/algorithm/string.hpp>
 #include "Matrix.h"
 Matrix::Matrix()
 {
@@ -764,4 +765,60 @@ Cell *Matrix::getStep(int i,string type)
         }
     }
     return nullptr;
+}
+
+void Matrix::Mixer(Cell* b,Cell* e)
+{
+    Node<Cell*>* temp= this->towers->getHead();
+    string manifest="";
+    while(temp!= nullptr)
+    {
+        if(temp->getNext()== nullptr)
+        {
+            manifest+=temp->getValue()->getObstacleType();
+        }
+        else
+        {
+            manifest+=temp->getValue()->getObstacleType()+"@";
+        }
+        temp=temp->getNext();
+    }
+    vector<string> input;
+    boost::split(input,manifest, boost::is_any_of("@"));
+    this->resetAll();
+    for(int i=0;i<input.size();i++)
+    {
+        random_device rd;
+        static mt19937 rng(rd());
+        static uniform_int_distribution<int> uni(0,9);
+        while (true) {
+            srand(time(0));
+            int line = uni(rng);
+            int column = uni(rng);
+            Cell *cell = get(line, column);
+            if ((!isTheSame(cell, b) && !isTheSame(cell, e)) && !cell->isObstacle())
+            {
+                while(true)
+                {
+                    static uniform_int_distribution<int> typ(0, 2);
+                    static uniform_int_distribution<int> prob(1, 100);
+                    int type = typ(rng);
+                    int probability=prob(rng);
+
+                    cell->setObstascleType(input.at(i));
+                    this->setAsObstacle(line, column);
+                    if(!BacktrackingSolver(b,e))
+                    {
+                        cell->unsetAsObstacle();
+                    }
+                    else
+                    {
+                        towers->add(cell);
+                        break;
+                    }
+                }
+                break;
+            }
+        }
+    }
 }

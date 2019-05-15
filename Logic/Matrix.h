@@ -172,6 +172,7 @@ public:
      */
     int getDamage(Cell* c);
     Cell* getStep(int i,string type);
+    void Mixer(Cell* b, Cell* e);
 
 };
 

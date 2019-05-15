@@ -53,10 +53,9 @@ void Server::init()
     this->matriz->fill(10);
     Cell* beg=this->matriz->get(0,0);
     Cell* end=this->matriz->get(9,9);
-    for(int i=0;i<4;i++)
-    {
-        matriz->randomObstacleSetter(beg,end);
-    }
+
+    matriz->randomObstacleSetter(beg,end);
+
     this->matriz->print();
 
 
@@ -167,8 +166,16 @@ void Server::init()
 
             {
                 string message=buffer;
-                cout<<"Comando recibido: "+message<<endl;
-                if(message=="position")
+                string s="";
+                s+=message.at(0);
+                int ind= stoi(s);
+                string output="";
+                for(int i=1;i<=ind;i++)
+                {
+                    output+=message.at(i);
+                }
+                cout<<"Comando recibido: "+output<<endl;
+                if(output=="position")
                 {
                     sendMessage("send");
                     memset(this->buffer, 0, 2048);
@@ -191,7 +198,7 @@ void Server::init()
                     sendMessage(out);
 
                 }
-                else if(message=="NTowers")
+                else if(output=="NTowers")
                 {
                     sendMessage("send");
                     int index=stoi(receiveMessage());
@@ -220,7 +227,7 @@ void Server::init()
                         sendMessage("stop");
                     }
                 }
-                else if(message=="NewGlad")
+                else if(output=="NewGlad")
                 {
                     if(popAstar==nullptr)
                     {
@@ -251,6 +258,21 @@ void Server::init()
                         memset(this->buffer, 0, 2048);
                     }
                 }
+                else if(output=="resist")
+                {
+                    sendMessage("send");
+                    string s= receiveMessage();
+                    cout<<"Evaluar el dano en: "+s<<endl;
+                    vector<string> input;
+                    boost::split(input,s, boost::is_any_of(","));
+                    int damage= matriz->getDamage(matriz->get(stoi(input[0]),stoi(input[1])));
+                    sendMessage(to_string(damage));
+                }
+                else if (output=="newIT")
+                {
+                    this->matriz->resetPath();
+                    this->matriz->randomObstacleSetter(matriz->get(0,0),matriz->get(9,9));
+                }
 
             }
         }
@@ -269,7 +291,15 @@ string Server::receiveMessage()
     memset(this->buffer, 0, 2048);
     int r = read(this->socketC, buffer, 2048);
     string g = string(buffer, 0, r);
-    return g;
+    string s="";
+    s+=g.at(0);
+    int ind= stoi(s);
+    string output="";
+    for(int i=1;i<=ind;i++)
+    {
+        output+=g.at(i);
+    }
+    return output;
 }
 
 string Server::GladToJSON(Gladiator Aquiles)
