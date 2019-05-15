@@ -30,31 +30,6 @@ public:
      * @return Resultado de tipo string.
      */
     string toJSON(string s);
-    /**
-     * Metodo para convertir un JSON en Ptree;
-     * @param s String a convertir.
-     * @return Resultado de tipo Ptree.
-     */
-    ptree toPtree(string s);
-    /**
-     * Metodo para obtener el valor de una llave en un JSON.
-     * @return Valor de tipo string.
-     * @param JSON JSON del cual se quiere obtener un valor.
-     * @param llave Llave del valor.
-     */
-    string askFor(string JSON,string llave);
-    /**
-     * Metodo para transformar una matriz en un JSON.
-     * @param m Matriz de tipo Matrix.
-     * @return Matriz en formato JSON.
-     */
-    string matrixtoJSON(Matrix* m);
-    /**
-     * Metodo para convertir un JSON a una matriz.
-     * @param JSON String que representa una matriz en formato JSON.
-     * @return Objeto de tipo Matriz.
-     */
-    Matrix JSONtomatrix(string JSON);
 
 };
 

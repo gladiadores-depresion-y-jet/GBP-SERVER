@@ -171,7 +171,18 @@ public:
      * @return Dano que recibiria el gladiador.
      */
     int getDamage(Cell* c);
+    /**
+     * Metodo para obtener un determinado paso del camino establecido por un algoritmo de busqueda
+     * @param i Numero de paso.
+     * @param type Tipo de algoritmo.
+     * @return Celda a la que corresponde el paso.
+     */
     Cell* getStep(int i,string type);
+    /**
+     * Metodo para mezclar de manera al azar las torres en el tablero.
+     * @param b Celda del inicio.
+     * @param e Celda del final.
+     */
     void Mixer(Cell* b, Cell* e);
 
 };

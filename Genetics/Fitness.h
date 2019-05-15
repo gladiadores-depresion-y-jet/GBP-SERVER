@@ -32,7 +32,6 @@ public:
      * @return el valor del fitness para ese individuo
      */
     static float getFitness(Gladiator gladiator);
-    static float getMaxFitness();
 
 
 };

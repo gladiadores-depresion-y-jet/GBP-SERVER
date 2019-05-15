@@ -15,9 +15,6 @@
  * @brief Clase encargada de los cruces mutaciones e inversiones
  */
 class Algorithm {
-    //parametos de GA
-
-public:
 
 public:
     /**

@@ -59,16 +59,6 @@ public:
      */
     int getG();
     /**
-     * Metodo para establecer el valor de la fila de la celda.
-     * @param l Valor que se le va a asignar a la fila de la celda.
-     */
-    void setLine(int l);
-    /**
-     * Metodo para establecer el valor de la columna de la celda.
-     * @param c Valor que se le va a asignar a la columna de la celda.
-     */
-    void setColumn(int c);
-    /**
      * Metodo para establecer el factor G de la celda.
      * @param g Valor que se le va a asignar al factor G de la celda.
      */

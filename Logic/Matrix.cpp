@@ -614,7 +614,7 @@ void Matrix::randomObstacleSetter(Cell* start, Cell* end)
 {
     random_device rd;
     static mt19937 rng(rd());
-    static uniform_int_distribution<int> uni(0,9);
+    static uniform_int_distribution<int> uni(0,this->lines-1);
     for(int i=0;i<3;i++)
     {
         while (true) {
@@ -798,7 +798,7 @@ void Matrix::Mixer(Cell* b,Cell* e)
     {
         random_device rd;
         static mt19937 rng(rd());
-        static uniform_int_distribution<int> uni(0,9);
+        static uniform_int_distribution<int> uni(0,this->lines-1);
         while (true) {
             srand(time(0));
             int line = uni(rng);

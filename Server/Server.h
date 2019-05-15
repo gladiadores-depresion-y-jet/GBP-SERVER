@@ -18,7 +18,6 @@
 /**
  * @version 1.0
  * @file Server.h
- * @
  *
  * author Daniel Camacho Gonzalez
  *
@@ -49,7 +48,16 @@ public:
      * @param s mensaje a enviar
      */
     void sendMessage(string s);
+    /**
+     * Metodo para recibir mensajes del cliente.
+     * @return Mensaje recibido del cliente.
+     */
     string receiveMessage();
+    /**
+     * Metodo para convertir un objeto gladiador en un JSON.
+     * @param G Gladiador a convertir.
+     * @return JSON de gladiador ya convertido.
+     */
     string GladToJSON(Gladiator G);
 };
 

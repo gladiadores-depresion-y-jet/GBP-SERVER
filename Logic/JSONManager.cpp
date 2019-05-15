@@ -38,17 +38,4 @@ string JSONManager::toJSON(string entrada)
     std::string json = buf.str();
     return json;
 }
-ptree JSONManager::toPtree(string s) {
 
-    std::istringstream iss(s);
-    ptree document;
-    read_json(iss, document);
-    return document;
-}
-
-string JSONManager::askFor(string JSON,string llave)
-{
-    ptree p= toPtree(JSON);
-    string v=p.get<string>(llave);
-    return v;
-}

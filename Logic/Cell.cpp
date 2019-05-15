@@ -49,15 +49,6 @@ int Cell::getH()
     return this->H;
 }
 
-void Cell::setLine(int l)
-{
-    this->line=l;
-}
-
-void Cell::setColumn(int c)
-{
-    this->column=c;
-}
 void Cell::setG(int g)
 {
     this->G=g;
