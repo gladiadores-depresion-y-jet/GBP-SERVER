@@ -104,7 +104,7 @@ Gladiator Algorithm::mutate(Gladiator indiv) {
     std::random_device rd;
     std::mt19937 rng(rd());
     std::uniform_int_distribution<int> uni(0,99);
-    std::uniform_int_distribution<int> uni1(15+mutateCont);
+    std::uniform_int_distribution<int> uni1(15);
     std::uniform_int_distribution<int> uni2(0,3);
     std::uniform_int_distribution<int> uni3(-2,2);
 
