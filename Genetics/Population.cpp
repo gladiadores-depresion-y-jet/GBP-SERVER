@@ -18,7 +18,7 @@ Population::Population(int populationSize, bool initialise) {
 
     std::random_device rd;
     std::mt19937 rng(rd());
-    std::uniform_int_distribution<int> uni(0,40);
+    std::uniform_int_distribution<int> uni(10,20);
     std::uniform_int_distribution<int> uni1(0,25);
 
     if(initialise){
@@ -67,16 +67,6 @@ void Population::saveIndividual(int index, Gladiator gladiator) {
 
 void Population::saveInitIndi(Gladiator gladiator) {
     individuals.push_back(gladiator);
-}
-
-void Population::deleteGladiator(int num) {
-    for(int i = 0 ; i<num ; i++){
-        this->individuals.erase(this->individuals.begin()+this->individuals.size()-1);
-    }cout<<"se han eliminado "<<num<<" individuos"<<endl;
-}
-
-vector<Gladiator> Population::getIndividuals() {
-    return individuals;
 }
 
 void Population::calcALLProbability() {

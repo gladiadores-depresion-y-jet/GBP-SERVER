@@ -6,6 +6,7 @@
 #include <iostream>
 #include <random>
 #include <boost/algorithm/string.hpp>
+#include <chrono>
 #include "Matrix.h"
 Matrix::Matrix()
 {
@@ -303,6 +304,7 @@ void Matrix::setAsObstacle(int l,int c)
 
 Cell* Matrix::AstarFindPath(int lstart, int cstart, int lfinish, int cfinish)
 {
+    std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
     Cell* start=get(lstart,cstart);
     Cell* finish= get(lfinish,cfinish);
     List<Cell*>* open= new List<Cell*>;
@@ -357,10 +359,15 @@ Cell* Matrix::AstarFindPath(int lstart, int cstart, int lfinish, int cfinish)
     }
     delete(temp);
     this->AstarHead=finish;
+    std::chrono::steady_clock::time_point end= std::chrono::steady_clock::now();
+    std::cout << "Time difference = " << (std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count()) /1000000.0 <<"s"<<std::endl;
+    this->AstarTime=(std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count()) /1000000.0;
+    cout<<to_string(AstarTime)<<endl;
     return finish;
 }
 void Matrix::BacktrackingFindPath(int lstart, int cstart, int lfinish, int cfinish)
 {
+    std::chrono::steady_clock::time_point begin= std::chrono::steady_clock::now();
     Cell* begining=get(lstart,cstart);
     Cell* end=get(lfinish,cfinish);
 
@@ -379,7 +386,10 @@ void Matrix::BacktrackingFindPath(int lstart, int cstart, int lfinish, int cfini
     {
         cout << "No es posible llegar al punto" << endl;
     }
-
+    std::chrono::steady_clock::time_point finish= std::chrono::steady_clock::now();
+    std::cout << "Time difference = " << (chrono::duration_cast<chrono::microseconds>(finish - begin).count()) /1000000.0<<"s"<<endl;
+    this->BackTime=(chrono::duration_cast<std::chrono::microseconds>(finish - begin).count()) /1000000.0;
+    cout<<to_string(BackTime)<<endl;
 }
 int Matrix::getHCost(Cell *askingC,Cell* destiny)
 {
@@ -829,4 +839,13 @@ void Matrix::Mixer(Cell* b,Cell* e)
             }
         }
     }
+}
+
+double Matrix::getAstarTime()
+{
+    return this->AstarTime;
+}
+
+double Matrix::getBackTime() {
+    return this->BackTime;
 }

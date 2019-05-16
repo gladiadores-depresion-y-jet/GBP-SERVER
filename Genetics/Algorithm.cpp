@@ -9,10 +9,10 @@
 
 
 //si el numero random sale entre estos valores entonces se produce una mutacion
-static auto mutationRate = vector<int>{15, 50};
+static auto mutationRate = vector<int>{15, 50, 45};
 //si el numero random sale entre estos valores entonces se produce una inversion
 static auto inversionRate = vector<int>{67};
-
+static int mutateCont = 0;
 
 Population Algorithm::envolvePopulation(Population * pop) {
 
@@ -104,7 +104,7 @@ Gladiator Algorithm::mutate(Gladiator indiv) {
     std::random_device rd;
     std::mt19937 rng(rd());
     std::uniform_int_distribution<int> uni(0,99);
-    std::uniform_int_distribution<int> uni1(0,15);
+    std::uniform_int_distribution<int> uni1(15+mutateCont);
     std::uniform_int_distribution<int> uni2(0,3);
     std::uniform_int_distribution<int> uni3(-2,2);
 
@@ -113,6 +113,7 @@ Gladiator Algorithm::mutate(Gladiator indiv) {
     int random = uni(rng);
 
     if(std::find(mutationRate.begin(), mutationRate.end(), random) != mutationRate.end()) {
+        mutateCont++;
         /* mutationRate contains random */
 
         int sum_rest = uni1(rng);

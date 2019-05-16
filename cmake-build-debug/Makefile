@@ -123,6 +123,114 @@ GBP_Server/fast:
 	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/build
 .PHONY : GBP_Server/fast
 
+Genetics/Algorithm.o: Genetics/Algorithm.cpp.o
+
+.PHONY : Genetics/Algorithm.o
+
+# target to build an object file
+Genetics/Algorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.o
+.PHONY : Genetics/Algorithm.cpp.o
+
+Genetics/Algorithm.i: Genetics/Algorithm.cpp.i
+
+.PHONY : Genetics/Algorithm.i
+
+# target to preprocess a source file
+Genetics/Algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.i
+.PHONY : Genetics/Algorithm.cpp.i
+
+Genetics/Algorithm.s: Genetics/Algorithm.cpp.s
+
+.PHONY : Genetics/Algorithm.s
+
+# target to generate assembly for a file
+Genetics/Algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.s
+.PHONY : Genetics/Algorithm.cpp.s
+
+Genetics/Fitness.o: Genetics/Fitness.cpp.o
+
+.PHONY : Genetics/Fitness.o
+
+# target to build an object file
+Genetics/Fitness.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.o
+.PHONY : Genetics/Fitness.cpp.o
+
+Genetics/Fitness.i: Genetics/Fitness.cpp.i
+
+.PHONY : Genetics/Fitness.i
+
+# target to preprocess a source file
+Genetics/Fitness.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.i
+.PHONY : Genetics/Fitness.cpp.i
+
+Genetics/Fitness.s: Genetics/Fitness.cpp.s
+
+.PHONY : Genetics/Fitness.s
+
+# target to generate assembly for a file
+Genetics/Fitness.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.s
+.PHONY : Genetics/Fitness.cpp.s
+
+Genetics/Gladiator.o: Genetics/Gladiator.cpp.o
+
+.PHONY : Genetics/Gladiator.o
+
+# target to build an object file
+Genetics/Gladiator.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Gladiator.cpp.o
+.PHONY : Genetics/Gladiator.cpp.o
+
+Genetics/Gladiator.i: Genetics/Gladiator.cpp.i
+
+.PHONY : Genetics/Gladiator.i
+
+# target to preprocess a source file
+Genetics/Gladiator.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Gladiator.cpp.i
+.PHONY : Genetics/Gladiator.cpp.i
+
+Genetics/Gladiator.s: Genetics/Gladiator.cpp.s
+
+.PHONY : Genetics/Gladiator.s
+
+# target to generate assembly for a file
+Genetics/Gladiator.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Gladiator.cpp.s
+.PHONY : Genetics/Gladiator.cpp.s
+
+Genetics/Population.o: Genetics/Population.cpp.o
+
+.PHONY : Genetics/Population.o
+
+# target to build an object file
+Genetics/Population.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.o
+.PHONY : Genetics/Population.cpp.o
+
+Genetics/Population.i: Genetics/Population.cpp.i
+
+.PHONY : Genetics/Population.i
+
+# target to preprocess a source file
+Genetics/Population.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.i
+.PHONY : Genetics/Population.cpp.i
+
+Genetics/Population.s: Genetics/Population.cpp.s
+
+.PHONY : Genetics/Population.s
+
+# target to generate assembly for a file
+Genetics/Population.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.s
+.PHONY : Genetics/Population.cpp.s
+
 Logic/Cell.o: Logic/Cell.cpp.o
 
 .PHONY : Logic/Cell.o
@@ -231,114 +339,6 @@ Main/main.cpp.s:
 	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Main/main.cpp.s
 .PHONY : Main/main.cpp.s
 
-Objects/Algorithm.o: Objects/Algorithm.cpp.o
-
-.PHONY : Objects/Algorithm.o
-
-# target to build an object file
-Objects/Algorithm.cpp.o:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o
-.PHONY : Objects/Algorithm.cpp.o
-
-Objects/Algorithm.i: Objects/Algorithm.cpp.i
-
-.PHONY : Objects/Algorithm.i
-
-# target to preprocess a source file
-Objects/Algorithm.cpp.i:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.i
-.PHONY : Objects/Algorithm.cpp.i
-
-Objects/Algorithm.s: Objects/Algorithm.cpp.s
-
-.PHONY : Objects/Algorithm.s
-
-# target to generate assembly for a file
-Objects/Algorithm.cpp.s:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.s
-.PHONY : Objects/Algorithm.cpp.s
-
-Objects/Fitness.o: Objects/Fitness.cpp.o
-
-.PHONY : Objects/Fitness.o
-
-# target to build an object file
-Objects/Fitness.cpp.o:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o
-.PHONY : Objects/Fitness.cpp.o
-
-Objects/Fitness.i: Objects/Fitness.cpp.i
-
-.PHONY : Objects/Fitness.i
-
-# target to preprocess a source file
-Objects/Fitness.cpp.i:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.i
-.PHONY : Objects/Fitness.cpp.i
-
-Objects/Fitness.s: Objects/Fitness.cpp.s
-
-.PHONY : Objects/Fitness.s
-
-# target to generate assembly for a file
-Objects/Fitness.cpp.s:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.s
-.PHONY : Objects/Fitness.cpp.s
-
-Objects/Gladiator.o: Objects/Gladiator.cpp.o
-
-.PHONY : Objects/Gladiator.o
-
-# target to build an object file
-Objects/Gladiator.cpp.o:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o
-.PHONY : Objects/Gladiator.cpp.o
-
-Objects/Gladiator.i: Objects/Gladiator.cpp.i
-
-.PHONY : Objects/Gladiator.i
-
-# target to preprocess a source file
-Objects/Gladiator.cpp.i:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.i
-.PHONY : Objects/Gladiator.cpp.i
-
-Objects/Gladiator.s: Objects/Gladiator.cpp.s
-
-.PHONY : Objects/Gladiator.s
-
-# target to generate assembly for a file
-Objects/Gladiator.cpp.s:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.s
-.PHONY : Objects/Gladiator.cpp.s
-
-Objects/Population.o: Objects/Population.cpp.o
-
-.PHONY : Objects/Population.o
-
-# target to build an object file
-Objects/Population.cpp.o:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o
-.PHONY : Objects/Population.cpp.o
-
-Objects/Population.i: Objects/Population.cpp.i
-
-.PHONY : Objects/Population.i
-
-# target to preprocess a source file
-Objects/Population.cpp.i:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Population.cpp.i
-.PHONY : Objects/Population.cpp.i
-
-Objects/Population.s: Objects/Population.cpp.s
-
-.PHONY : Objects/Population.s
-
-# target to generate assembly for a file
-Objects/Population.cpp.s:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Objects/Population.cpp.s
-.PHONY : Objects/Population.cpp.s
-
 Server/Server.o: Server/Server.cpp.o
 
 .PHONY : Server/Server.o
@@ -375,6 +375,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... GBP_Server"
 	@echo "... edit_cache"
+	@echo "... Genetics/Algorithm.o"
+	@echo "... Genetics/Algorithm.i"
+	@echo "... Genetics/Algorithm.s"
+	@echo "... Genetics/Fitness.o"
+	@echo "... Genetics/Fitness.i"
+	@echo "... Genetics/Fitness.s"
+	@echo "... Genetics/Gladiator.o"
+	@echo "... Genetics/Gladiator.i"
+	@echo "... Genetics/Gladiator.s"
+	@echo "... Genetics/Population.o"
+	@echo "... Genetics/Population.i"
+	@echo "... Genetics/Population.s"
 	@echo "... Logic/Cell.o"
 	@echo "... Logic/Cell.i"
 	@echo "... Logic/Cell.s"
@@ -387,18 +399,6 @@ help:
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"
-	@echo "... Objects/Algorithm.o"
-	@echo "... Objects/Algorithm.i"
-	@echo "... Objects/Algorithm.s"
-	@echo "... Objects/Fitness.o"
-	@echo "... Objects/Fitness.i"
-	@echo "... Objects/Fitness.s"
-	@echo "... Objects/Gladiator.o"
-	@echo "... Objects/Gladiator.i"
-	@echo "... Objects/Gladiator.s"
-	@echo "... Objects/Population.o"
-	@echo "... Objects/Population.i"
-	@echo "... Objects/Population.s"
 	@echo "... Server/Server.o"
 	@echo "... Server/Server.i"
 	@echo "... Server/Server.s"

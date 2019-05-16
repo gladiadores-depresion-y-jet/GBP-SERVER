@@ -61,16 +61,7 @@ public:
      * @param gladiator a agregar
      */
     void saveInitIndi(Gladiator gladiator);
-    /**
-     * Eliina un gladiador del vector
-     * @param num numero de indice a eliminar
-     */
-    void deleteGladiator(int num);
-    /**
-     * Obtiene el vector que almacena a los individuos
-     * @return vector de tipo gladiador
-     */
-    vector<Gladiator> getIndividuals();
+
     /**
      * Calcula el porcentaje de supervivencia de cada gladiador dentro del vector
      */

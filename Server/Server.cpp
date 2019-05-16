@@ -31,8 +31,8 @@
 #include <thread>
 #include<thread>
 #include "Server.h"
-#include "../Objects/Gladiator.h"
-#include "../Objects/Algorithm.h"
+#include "../Genetics/Gladiator.h"
+#include "../Genetics/Algorithm.h"
 
 #define TRUE   1
 #define PORT 54000
@@ -42,7 +42,6 @@ using namespace std;
 Server::Server()
 
 {
-
     init();
 }
 
@@ -54,7 +53,7 @@ void Server::init()
     Cell* beg=this->matriz->get(0,0);
     Cell* end=this->matriz->get(9,9);
 
-    matriz->randomObstacleSetter(beg,end);
+    matriz->randomObstacleSetter(matriz->get(0,0),matriz->get(9,9));
 
     this->matriz->print();
 
@@ -282,6 +281,19 @@ void Server::init()
                 else if(output=="final")
                 {
                     sendMessage(to_string(this->popAstar->getAverage())+","+to_string(this->popBack->getAverage()));
+                }
+                else if(output=="time")
+                {
+                    sendMessage("send");
+                    string message= receiveMessage();
+                    if(message=="astar")
+                    {
+                        sendMessage(to_string(this->matriz->getAstarTime()));
+                    }
+                    else if (message=="back")
+                    {
+                        sendMessage(to_string(this->matriz->getBackTime()));
+                    }
                 }
 
             }

@@ -84,6 +84,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Algorithm.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Algorithm.h">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Fitness.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Fitness.h">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Gladiator.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Gladiator.h">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Population.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Population.h">
+			<Option target="GBP_Server"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Cell.cpp">
 			<Option target="GBP_Server"/>
 		</Unit>
@@ -103,30 +127,6 @@
 			<Option target="GBP_Server"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Main/main.cpp">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.cpp">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.h">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Fitness.cpp">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Fitness.h">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.cpp">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.h">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.cpp">
-			<Option target="GBP_Server"/>
-		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.h">
 			<Option target="GBP_Server"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.cpp">

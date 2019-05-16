@@ -20,6 +20,8 @@ private:
     int AstarSteps;
     Cell* BacktrackingHead;
     int BacktrackSteps;
+    double AstarTime;
+    double BackTime;
 
 public:
     /**
@@ -185,6 +187,9 @@ public:
      */
     void Mixer(Cell* b, Cell* e);
 
+    double getAstarTime();
+
+    double getBackTime();
 };
 
 

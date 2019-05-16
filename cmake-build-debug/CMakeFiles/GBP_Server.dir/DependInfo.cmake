@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Algorithm.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.o"
+  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Fitness.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.o"
+  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Gladiator.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Gladiator.cpp.o"
+  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Population.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.o"
   "/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Cell.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o"
   "/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/JSONManager.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o"
   "/home/dcamachog1501/Induced_Desktop/GBP_Server/Logic/Matrix.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o"
   "/home/dcamachog1501/Induced_Desktop/GBP_Server/Main/main.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.o"
-  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Algorithm.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Objects/Algorithm.cpp.o"
-  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Fitness.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Objects/Fitness.cpp.o"
-  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Gladiator.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Objects/Gladiator.cpp.o"
-  "/home/dcamachog1501/Induced_Desktop/GBP_Server/Objects/Population.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Objects/Population.cpp.o"
   "/home/dcamachog1501/Induced_Desktop/GBP_Server/Server/Server.cpp" "/home/dcamachog1501/Induced_Desktop/GBP_Server/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

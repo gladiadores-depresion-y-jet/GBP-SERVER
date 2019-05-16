@@ -58,60 +58,8 @@ Gladiator::Gladiator(int ag, int emot, int phy, int up, int low) {
 
 }
 
-void Gladiator::init() {
-    this->generateIndividual();
-}
-
-void Gladiator::generateIndividual() {
-
-
-
-    upper = uni(rng);
-    lower = uni(rng);
-    physical = uni(rng);
-    emotionalI = uni(rng);
-    age = uni(rng);
-    //aqui se tiene que calcula la resistencia y setearla , averiguar como calcular fuerza
-    if(this->calculateResistance()){
-        cout<<"resistencia de gladiador : "<<resistance<<endl;
-    }else{
-        cout<<"no se calculo la resistencia"<<endl;
-    }
-
-
-    //seteando a los genes
-    this->setAtributeTovector(upper,lower,emotionalI,physical,age);
-    cout<<this->genesToString()<<endl;
-}
-
 int Gladiator::getGene(int index){
     return genes.at(index);
-}
-int Gladiator::binTodec(vector<int> v) {
-    int result = 0;
-    int exponent = v.size()-1;
-    for(int i = 0 ; i<v.size() ; i++){
-        if(v.at(i)){
-            result += pow(2,exponent);
-        }
-        exponent--;
-    }return result;
-
-}
-vector<int> * Gladiator::decTobin(int num) {
-
-    vector<int> * binario = new vector<int>();
-    vector<int>  aux =  vector<int>();
-    while(num != 0 ){
-        int bit = num%2;
-        num = num/2;
-        aux.push_back(bit);
-
-    }for(int i = aux.size()-1 ;i>=0 ; i-- ){
-
-        binario->push_back(aux.at(i));
-    }
-    return binario;
 }
 
 bool Gladiator::calculateResistance() {
@@ -198,64 +146,32 @@ int Gladiator::getAge(){
     return age;
 }
 
-void Gladiator::setAge(int age) {
-    Gladiator::age = age;
-}
-
 float Gladiator::getProbability(){
     return probability;
-}
-
-void Gladiator::setProbability(int probability) {
-    this->probability = probability;
 }
 
 int Gladiator::getEstimatedG(){
     return estimatedG;
 }
 
-void Gladiator::setEstimatedG(int estimatedG) {
-    this->estimatedG = estimatedG;
-}
-
 int Gladiator::getEmotionalI(){
     return emotionalI;
-}
-
-void Gladiator::setEmotionalI(int emotionalI) {
-    this->emotionalI = emotionalI;
 }
 
 int Gladiator::getPhysical(){
     return physical;
 }
 
-void Gladiator::setPhysical(int physical) {
-    this->physical = physical;
-}
-
 int Gladiator::getUpper(){
     return upper;
-}
-
-void Gladiator::setUpper(int upper) {
-    this->upper = upper;
 }
 
 int Gladiator::getLower(){
     return lower;
 }
 
-void Gladiator::setLower(int lower) {
-    this->lower = lower;
-}
-
 int Gladiator::getResistance(){
     return resistance;
-}
-
-void Gladiator::setResistance(int resistance) {
-    this->resistance = resistance;
 }
 
 void Gladiator::setFitness(int fitness) {

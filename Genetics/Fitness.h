@@ -22,11 +22,6 @@ class Fitness {
 
 public:
     /**
-     * Setea un valor de fitness maximo a alcanzar
-     * @param sol valor maximo de fitness
-     */
-    static void setSolution(float sol);
-    /**
      * Recibe un objeto gladiador y calcula su fitness de acuerdo a sus atributos
      * @param gladiator objeto a evaluar
      * @return el valor del fitness para ese individuo

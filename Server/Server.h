@@ -12,9 +12,9 @@
 #include <boost/property_tree/json_parser.hpp>
 #include "../Logic/Matrix.h"
 #include "../Logic/JSONManager.h"
-#include "../Objects/Gladiator.h"
-#include "../Objects/Population.h"
-#include "../Objects/Algorithm.h"
+#include "../Genetics/Gladiator.h"
+#include "../Genetics/Population.h"
+#include "../Genetics/Algorithm.h"
 /**
  * @version 1.0
  * @file Server.h

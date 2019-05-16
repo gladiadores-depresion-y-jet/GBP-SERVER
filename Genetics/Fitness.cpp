@@ -10,10 +10,6 @@
 
 static float * solution = new float();
 
-void Fitness::setSolution(float sol) {
-    *solution = sol;
-}
-
 float Fitness::getFitness(Gladiator gladiator) {
 
     float fitness = 0;
