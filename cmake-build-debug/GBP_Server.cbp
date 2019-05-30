@@ -395,7 +395,7 @@
 		<Unit filename="/home/dcamachog1501/Induced_Desktop/Unit_Testing/Structures/Node.h">
 			<Option target="GBP_Server"/>
 		</Unit>
-		<Unit filename="/home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/Matrix_Test.cpp">
+		<Unit filename="/home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/TestGenetic.cpp">
 			<Option target="GBP_Server"/>
 		</Unit>
 		<Unit filename="/home/dcamachog1501/Induced_Desktop/Unit_Testing/lib/googletest-master/googlemock/src/gmock-all.cc">

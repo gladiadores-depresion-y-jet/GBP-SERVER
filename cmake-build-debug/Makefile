@@ -464,32 +464,32 @@ Server/Server.cpp.s:
 	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Server/Server.cpp.s
 .PHONY : Server/Server.cpp.s
 
-Tests/Matrix_Test.o: Tests/Matrix_Test.cpp.o
+Tests/TestGenetic.o: Tests/TestGenetic.cpp.o
 
-.PHONY : Tests/Matrix_Test.o
+.PHONY : Tests/TestGenetic.o
 
 # target to build an object file
-Tests/Matrix_Test.cpp.o:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o
-.PHONY : Tests/Matrix_Test.cpp.o
+Tests/TestGenetic.cpp.o:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o
+.PHONY : Tests/TestGenetic.cpp.o
 
-Tests/Matrix_Test.i: Tests/Matrix_Test.cpp.i
+Tests/TestGenetic.i: Tests/TestGenetic.cpp.i
 
-.PHONY : Tests/Matrix_Test.i
+.PHONY : Tests/TestGenetic.i
 
 # target to preprocess a source file
-Tests/Matrix_Test.cpp.i:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.i
-.PHONY : Tests/Matrix_Test.cpp.i
+Tests/TestGenetic.cpp.i:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.i
+.PHONY : Tests/TestGenetic.cpp.i
 
-Tests/Matrix_Test.s: Tests/Matrix_Test.cpp.s
+Tests/TestGenetic.s: Tests/TestGenetic.cpp.s
 
-.PHONY : Tests/Matrix_Test.s
+.PHONY : Tests/TestGenetic.s
 
 # target to generate assembly for a file
-Tests/Matrix_Test.cpp.s:
-	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.s
-.PHONY : Tests/Matrix_Test.cpp.s
+Tests/TestGenetic.cpp.s:
+	$(MAKE) -f CMakeFiles/GBP_Server.dir/build.make CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.s
+.PHONY : Tests/TestGenetic.cpp.s
 
 # Help Target
 help:
@@ -535,9 +535,9 @@ help:
 	@echo "... Server/Server.o"
 	@echo "... Server/Server.i"
 	@echo "... Server/Server.s"
-	@echo "... Tests/Matrix_Test.o"
-	@echo "... Tests/Matrix_Test.i"
-	@echo "... Tests/Matrix_Test.s"
+	@echo "... Tests/TestGenetic.o"
+	@echo "... Tests/TestGenetic.i"
+	@echo "... Tests/TestGenetic.s"
 .PHONY : help
 
 

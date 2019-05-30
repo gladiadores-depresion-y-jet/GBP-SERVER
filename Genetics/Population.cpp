@@ -11,6 +11,7 @@
 
 
 Population::Population(int populationSize, bool initialise) {
+
     individuals =  vector<Gladiator>();
     fittest = new Gladiator();
     generation = new int(1);

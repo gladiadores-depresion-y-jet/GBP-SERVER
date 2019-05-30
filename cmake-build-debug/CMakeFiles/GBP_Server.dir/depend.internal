@@ -96,7 +96,7 @@ CMakeFiles/GBP_Server.dir/Server/Server.cpp.o
  /home/dcamachog1501/Induced_Desktop/Unit_Testing/Server/Server.h
  /home/dcamachog1501/Induced_Desktop/Unit_Testing/Structures/List.h
  /home/dcamachog1501/Induced_Desktop/Unit_Testing/Structures/Node.h
-CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o
+CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-function-mocker.h
@@ -135,8 +135,7 @@ CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/dcamachog1501/Induced_Desktop/Unit_Testing/Logic/Cell.h
- /home/dcamachog1501/Induced_Desktop/Unit_Testing/Logic/Matrix.h
- /home/dcamachog1501/Induced_Desktop/Unit_Testing/Structures/List.h
- /home/dcamachog1501/Induced_Desktop/Unit_Testing/Structures/Node.h
- /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/Matrix_Test.cpp
+ /home/dcamachog1501/Induced_Desktop/Unit_Testing/Genetics/Algorithm.h
+ /home/dcamachog1501/Induced_Desktop/Unit_Testing/Genetics/Gladiator.h
+ /home/dcamachog1501/Induced_Desktop/Unit_Testing/Genetics/Population.h
+ /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/TestGenetic.cpp

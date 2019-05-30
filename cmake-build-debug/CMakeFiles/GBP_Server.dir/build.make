@@ -174,18 +174,18 @@ CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/Unit_Testing/Genetics/Algorithm.cpp -o CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.s
 
-CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
-CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o: ../Tests/Matrix_Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/Unit_Testing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o -c /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/Matrix_Test.cpp
+CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o: CMakeFiles/GBP_Server.dir/flags.make
+CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o: ../Tests/TestGenetic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Induced_Desktop/Unit_Testing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o -c /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/TestGenetic.cpp
 
-CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/Matrix_Test.cpp > CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.i
+CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/TestGenetic.cpp > CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.i
 
-CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/Matrix_Test.cpp -o CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.s
+CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Induced_Desktop/Unit_Testing/Tests/TestGenetic.cpp -o CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.s
 
 # Object files for target GBP_Server
 GBP_Server_OBJECTS = \
@@ -198,7 +198,7 @@ GBP_Server_OBJECTS = \
 "CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.o" \
 "CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.o" \
 "CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.o" \
-"CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o"
+"CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o"
 
 # External object files for target GBP_Server
 GBP_Server_EXTERNAL_OBJECTS =
@@ -212,7 +212,7 @@ GBP_Server: CMakeFiles/GBP_Server.dir/Genetics/Gladiator.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.o
-GBP_Server: CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o
+GBP_Server: CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o
 GBP_Server: CMakeFiles/GBP_Server.dir/build.make
 GBP_Server: lib/libgtestd.a
 GBP_Server: lib/libgtest_maind.a

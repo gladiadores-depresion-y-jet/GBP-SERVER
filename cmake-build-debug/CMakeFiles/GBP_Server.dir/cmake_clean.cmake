@@ -8,7 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.o"
   "CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.o"
   "CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.o"
-  "CMakeFiles/GBP_Server.dir/Tests/Matrix_Test.cpp.o"
+  "CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.o"
   "GBP_Server.pdb"
   "GBP_Server"
 )

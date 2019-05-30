@@ -170,9 +170,9 @@ Gladiator Algorithm::getNext(Population * pop) {
         if(pop->getFittest().getFitness() > var){
             //var = pop->getFittest().getFitness();
             pop->plusGeneration();
-            cout<<"Generation: "<<pop->getGeneration()<<"Fittest: "<< pop->getFittest().getFitness()<<endl;
-            cout<<"Gladiator Genes: "<<pop->getFittest().genesToString()<<endl;
-            cout<<"Probabulity: "<<pop->getFittest().getProbability()<<" Resistance "<<pop->getFittest().getResistance()<<endl;
+            //cout<<"Generation: "<<pop->getGeneration()<<"Fittest: "<< pop->getFittest().getFitness()<<endl;
+            //cout<<"Gladiator Genes: "<<pop->getFittest().genesToString()<<endl;
+            //cout<<"Probabulity: "<<pop->getFittest().getProbability()<<" Resistance "<<pop->getFittest().getResistance()<<endl;
             return pop->getFittest();
         }
         *pop = Algorithm::envolvePopulation(pop);
