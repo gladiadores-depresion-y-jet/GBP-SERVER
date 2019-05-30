@@ -9,7 +9,7 @@
 
 #include <string>
 #include <string.h>
-#include <zconf.h>
+//#include <zconf.h> //TODO: desdocumentar este include en ubuntu
 #include <vector>
 
 

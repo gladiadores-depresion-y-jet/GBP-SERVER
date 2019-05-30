@@ -2,6 +2,7 @@
 // Created by dcamachog1501 on 10/04/19.
 //
 
+/*
 #include <iostream>
 #include <stdio.h>
 #include <string.h>   //strlen
@@ -233,8 +234,10 @@ void Server::init()
                         this->popAstar= new Population(100,true);
                         this->popBack= new Population(100,true);
 
-                        /*Gladiator Astar= Algorithm::getNext(popAstar);
-                        Gladiator Back= Algorithm::getNext(popBack);*/
+                        */
+/*Gladiator Astar= Algorithm::getNext(popAstar);
+                        Gladiator Back= Algorithm::getNext(popBack);*//*
+
 
                         Gladiator Astar= this->popAstar->getFittest();
                         Gladiator Back= this->popBack->getFittest();
@@ -348,4 +351,5 @@ string Server::GladToJSON(Gladiator Aquiles)
 
     return Jmanager->toJSON(output);
 }
+*/
 

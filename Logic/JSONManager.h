@@ -5,17 +5,17 @@
 #ifndef GBP_SERVER_JSONMANAGER_H
 #define GBP_SERVER_JSONMANAGER_H
 #include <algorithm>
-#include <boost/property_tree/json_parser.hpp>
+//#include <boost/property_tree/json_parser.hpp>
 #include <vector>
-#include <boost/algorithm/string.hpp>
+//#include <boost/algorithm/string.hpp>
 #include <string>
-#include <boost/property_tree/ptree.hpp>
+//#include <boost/property_tree/ptree.hpp>
 #include <iostream>
 #include "Matrix.h"
 
 using namespace std;
 
-using boost::property_tree::ptree;
+//using boost::property_tree::ptree;
 
 class JSONManager {
 

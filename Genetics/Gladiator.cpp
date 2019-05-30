@@ -4,7 +4,7 @@
 
 #include <cstdlib>
 #include <time.h>
-#include <zconf.h>
+//#include <zconf.h> //TODO: desdocumentar el include en ubuntu
 #include <random>
 #include "Gladiator.h"
 #include "Fitness.h"

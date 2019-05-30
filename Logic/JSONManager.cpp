@@ -2,6 +2,7 @@
 // Created by dcamachog1501 on 09/03/19.
 //
 
+/*
 
 #include "JSONManager.h"
 #include <algorithm>
@@ -38,4 +39,5 @@ string JSONManager::toJSON(string entrada)
     std::string json = buf.str();
     return json;
 }
+*/
 

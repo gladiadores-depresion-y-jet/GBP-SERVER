@@ -5,7 +5,7 @@
 #include <string>
 #include <iostream>
 #include <random>
-#include <boost/algorithm/string.hpp>
+//#include <boost/algorithm/string.hpp>
 #include <chrono>
 #include "Matrix.h"
 Matrix::Matrix()
@@ -802,7 +802,7 @@ void Matrix::Mixer(Cell* b,Cell* e)
         temp=temp->getNext();
     }
     vector<string> input;
-    boost::split(input,manifest, boost::is_any_of("@"));
+    //boost::split(input,manifest, boost::is_any_of("@"));
     this->resetAll();
     for(int i=0;i<input.size();i++)
     {

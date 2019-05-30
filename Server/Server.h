@@ -8,8 +8,8 @@
 
 #include <string>
 #include <string.h>
-#include <boost/property_tree/ptree.hpp>
-#include <boost/property_tree/json_parser.hpp>
+//#include <boost/property_tree/ptree.hpp>
+//#include <boost/property_tree/json_parser.hpp>
 #include "../Logic/Matrix.h"
 #include "../Logic/JSONManager.h"
 #include "../Genetics/Gladiator.h"

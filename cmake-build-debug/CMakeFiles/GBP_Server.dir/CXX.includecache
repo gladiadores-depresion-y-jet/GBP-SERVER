@@ -6,31 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Algorithm.cpp
-random
+C:/Users/Toshiba/Desktop/UnitTest/Logic/Cell.h
+vector
 -
-algorithm
+string
+-
+../Structures/List.h
+C:/Users/Toshiba/Desktop/UnitTest/Structures/List.h
+
+C:/Users/Toshiba/Desktop/UnitTest/Logic/Matrix.cpp
+string
 -
 iostream
 -
-Algorithm.h
-/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Algorithm.h
+random
+-
+chrono
+-
+Matrix.h
+C:/Users/Toshiba/Desktop/UnitTest/Logic/Matrix.h
 
-/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Algorithm.h
-Population.h
-/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Population.h
+C:/Users/Toshiba/Desktop/UnitTest/Logic/Matrix.h
+Cell.h
+C:/Users/Toshiba/Desktop/UnitTest/Logic/Cell.h
+../Structures/List.h
+C:/Users/Toshiba/Desktop/UnitTest/Structures/List.h
 
-/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Gladiator.h
-string
--
-string.h
--
-zconf.h
--
-vector
--
+C:/Users/Toshiba/Desktop/UnitTest/Structures/List.h
+Node.h
+C:/Users/Toshiba/Desktop/UnitTest/Structures/Node.h
 
-/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Population.h
-Gladiator.h
-/home/dcamachog1501/Induced_Desktop/GBP_Server/Genetics/Gladiator.h
+C:/Users/Toshiba/Desktop/UnitTest/Structures/Node.h
 
