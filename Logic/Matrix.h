@@ -190,6 +190,7 @@ public:
     double getAstarTime();
 
     double getBackTime();
+    List<Cell*>* getHead();
 };
 
 
