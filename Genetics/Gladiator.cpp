@@ -114,6 +114,7 @@ string Gladiator::genesToString() {
 }
 
 void Gladiator::setAtributeTovector(int upper, int lower, int emoti, int phy, int age) {
+
     genes.push_back(upper);
     genes.push_back(lower);
     genes.push_back(emoti);
@@ -127,6 +128,7 @@ vector<int> Gladiator::getGENES() {
 
 
 void Gladiator::setVectorToAtributes() {
+
     this->upper = this->genes.at(0);
     this->lower = this->genes.at(1);
     this->emotionalI = this->genes.at(2);
