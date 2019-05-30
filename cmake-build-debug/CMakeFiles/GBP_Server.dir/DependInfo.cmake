@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Toshiba/Desktop/UnitTest/Logic/Matrix.cpp" "C:/Users/Toshiba/Desktop/UnitTest/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.obj"
   "C:/Users/Toshiba/Desktop/UnitTest/Main/main.cpp" "C:/Users/Toshiba/Desktop/UnitTest/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.obj"
   "C:/Users/Toshiba/Desktop/UnitTest/Server/Server.cpp" "C:/Users/Toshiba/Desktop/UnitTest/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.obj"
+  "C:/Users/Toshiba/Desktop/UnitTest/Tests/TestGenetic.cpp" "C:/Users/Toshiba/Desktop/UnitTest/cmake-build-debug/CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.obj"
   "C:/Users/Toshiba/Desktop/UnitTest/Tests/test.cpp" "C:/Users/Toshiba/Desktop/UnitTest/cmake-build-debug/CMakeFiles/GBP_Server.dir/Tests/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

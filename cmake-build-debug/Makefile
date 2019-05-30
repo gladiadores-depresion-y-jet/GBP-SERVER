@@ -463,6 +463,33 @@ Server/Server.cpp.s:
 	$(MAKE) -f CMakeFiles\GBP_Server.dir\build.make CMakeFiles/GBP_Server.dir/Server/Server.cpp.s
 .PHONY : Server/Server.cpp.s
 
+Tests/TestGenetic.obj: Tests/TestGenetic.cpp.obj
+
+.PHONY : Tests/TestGenetic.obj
+
+# target to build an object file
+Tests/TestGenetic.cpp.obj:
+	$(MAKE) -f CMakeFiles\GBP_Server.dir\build.make CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.obj
+.PHONY : Tests/TestGenetic.cpp.obj
+
+Tests/TestGenetic.i: Tests/TestGenetic.cpp.i
+
+.PHONY : Tests/TestGenetic.i
+
+# target to preprocess a source file
+Tests/TestGenetic.cpp.i:
+	$(MAKE) -f CMakeFiles\GBP_Server.dir\build.make CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.i
+.PHONY : Tests/TestGenetic.cpp.i
+
+Tests/TestGenetic.s: Tests/TestGenetic.cpp.s
+
+.PHONY : Tests/TestGenetic.s
+
+# target to generate assembly for a file
+Tests/TestGenetic.cpp.s:
+	$(MAKE) -f CMakeFiles\GBP_Server.dir\build.make CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.s
+.PHONY : Tests/TestGenetic.cpp.s
+
 Tests/test.obj: Tests/test.cpp.obj
 
 .PHONY : Tests/test.obj
@@ -534,6 +561,9 @@ help:
 	@echo ... Server/Server.obj
 	@echo ... Server/Server.i
 	@echo ... Server/Server.s
+	@echo ... Tests/TestGenetic.obj
+	@echo ... Tests/TestGenetic.i
+	@echo ... Tests/TestGenetic.s
 	@echo ... Tests/test.obj
 	@echo ... Tests/test.i
 	@echo ... Tests/test.s

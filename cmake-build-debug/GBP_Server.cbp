@@ -375,6 +375,9 @@
 		<Unit filename="C:/Users/Toshiba/Desktop/UnitTest/Structures/Node.h">
 			<Option target="GBP_Server"/>
 		</Unit>
+		<Unit filename="C:/Users/Toshiba/Desktop/UnitTest/Tests/TestGenetic.cpp">
+			<Option target="GBP_Server"/>
+		</Unit>
 		<Unit filename="C:/Users/Toshiba/Desktop/UnitTest/Tests/test.cpp">
 			<Option target="GBP_Server"/>
 		</Unit>

@@ -19,57 +19,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9b527ca-8308-43bf-a2be-03a82d7d9e9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/TestGenetic.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Genetics/Gladiator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Genetics/Gladiator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Genetics/Gladiator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Genetics/Gladiator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic/JSONManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/JSONManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic/JSONManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/JSONManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/Matrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Genetics/Population.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Genetics/Population.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Gladiator.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Genetics/Population.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Cell.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/JSONManager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Logic/Matrix.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Main/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/Server/Server.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GBP_Server.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GBP_Server.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GBP_Server.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,47 +65,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Genetics/Gladiator.cpp">
+        <entry file="file://$PROJECT_DIR$/Genetics/Population.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="-272">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
-                <element signature="e#40#58#0" expanded="true" />
-                <element signature="e#98#115#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/Server.h">
+        <entry file="file://$PROJECT_DIR$/Genetics/Algorithm.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-238">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding>
-                <element signature="e#106#123#0" expanded="true" />
+                <element signature="e#41#58#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logic/JSONManager.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-              <folding>
-                <element signature="e#303#322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logic/JSONManager.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -147,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Genetics/Gladiator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="187">
               <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
               <folding>
                 <element signature="e#106#123#0" expanded="true" />
@@ -159,21 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/Server.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="-306">
               <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logic/Matrix.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="630" column="27" selection-start-line="630" selection-start-column="27" selection-end-line="630" selection-end-column="27" />
-              <folding>
-                <element signature="e#48#65#0" expanded="true" />
-                <element signature="e#144#161#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -181,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
               </folding>
@@ -190,14 +121,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="e#43#67#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/TestGenetic.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#43#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/make/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -255,7 +207,6 @@
         <option value="$PROJECT_DIR$/Genetics/Fitness.h" />
         <option value="$PROJECT_DIR$/Genetics/Population.h" />
         <option value="$PROJECT_DIR$/Logic/Matrix.h" />
-        <option value="$PROJECT_DIR$/Genetics/Population.cpp" />
         <option value="$PROJECT_DIR$/Genetics/Algorithm.cpp" />
         <option value="$PROJECT_DIR$/Server/Server.cpp" />
         <option value="$PROJECT_DIR$/Server/Server.h" />
@@ -267,6 +218,8 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Main/main.cpp" />
         <option value="$PROJECT_DIR$/Tests/test.cpp" />
+        <option value="$PROJECT_DIR$/Genetics/Population.cpp" />
+        <option value="$PROJECT_DIR$/Tests/TestGenetic.cpp" />
       </list>
     </option>
   </component>
@@ -290,6 +243,16 @@
             <path>
               <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Genetics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GBP_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -331,28 +294,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GBP_Server">
+  <component name="RunManager" selected="Application.gmock">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="GBP_Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GBP_Server" RUN_TARGET_NAME="GBP_Server" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GBP_Server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="GBP_Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GBP_Server" RUN_TARGET_NAME="GBP_Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gmock" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GBP_Server" RUN_TARGET_NAME="GBP_Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gmock_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GBP_Server" RUN_TARGET_NAME="GBP_Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GBP_Server" RUN_TARGET_NAME="GBP_Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GBP_Server" TARGET_NAME="gtest_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GBP_Server" RUN_TARGET_NAME="GBP_Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -395,12 +364,12 @@
       <workItem from="1557947285251" duration="1432000" />
       <workItem from="1557961419856" duration="5503000" />
       <workItem from="1557979573955" duration="5936000" />
-      <workItem from="1559176722078" duration="1884000" />
+      <workItem from="1559176722078" duration="8091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139367000" />
+    <option name="totallyTimeSpent" value="145574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,13 +393,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.9504132" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.57283145" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32405892" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,16 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Genetics/Population.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Logic/Matrix.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3213">
@@ -551,37 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Genetics/Algorithm.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/make/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/Server.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Genetics/Gladiator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding>
-            <element signature="e#106#123#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,6 +562,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Server/Server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/src/gtest-filepath.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2788">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/src/gtest-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Genetics/Gladiator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="e#106#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -641,20 +617,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/main.cpp">
+    <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/make/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="1496">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Genetics/Population.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
-            <element signature="e#1#30#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Genetics/Algorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#41#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#43#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/TestGenetic.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#43#67#0" expanded="true" />
           </folding>

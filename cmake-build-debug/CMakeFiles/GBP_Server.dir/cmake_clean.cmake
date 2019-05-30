@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GBP_Server.dir/Genetics/Fitness.cpp.obj"
   "CMakeFiles/GBP_Server.dir/Genetics/Algorithm.cpp.obj"
   "CMakeFiles/GBP_Server.dir/Tests/test.cpp.obj"
+  "CMakeFiles/GBP_Server.dir/Tests/TestGenetic.cpp.obj"
   "GBP_Server.pdb"
   "GBP_Server.exe"
   "GBP_Server.exe.manifest"
